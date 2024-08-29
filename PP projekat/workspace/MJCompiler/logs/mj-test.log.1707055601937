@@ -1,0 +1,239 @@
+INFO  15:06:01,979 - Compiling source file: D:\Materijali\7. semestar\PP\Projekat\pp1_domaci\workspace\MJCompiler\test\program.mj
+INFO  15:06:02,001 - #2 program
+INFO  15:06:02,001 - #46 mojProgram
+INFO  15:06:02,001 - #46 int
+INFO  15:06:02,002 - #46 i
+INFO  15:06:02,003 - #32 ;
+INFO  15:06:02,003 - #46 char
+INFO  15:06:02,003 - #46 nizChar
+INFO  15:06:02,003 - #38 [
+INFO  15:06:02,003 - #39 ]
+INFO  15:06:02,003 - #32 ;
+INFO  15:06:02,003 - #40 {
+INFO  15:06:02,003 - #11 void
+INFO  15:06:02,004 - #46 main
+INFO  15:06:02,004 - #36 (
+INFO  15:06:02,004 - #37 )
+INFO  15:06:02,004 - #40 {
+INFO  15:06:02,004 - #46 nizChar
+INFO  15:06:02,005 - #29 =
+INFO  15:06:02,005 - #7 new
+INFO  15:06:02,005 - #46 int
+INFO  15:06:02,008 - #38 [
+INFO  15:06:02,008 - #43 5
+INFO  15:06:02,008 - #39 ]
+INFO  15:06:02,009 - #32 ;
+INFO  15:06:02,009 - #13 for
+INFO  15:06:02,009 - #36 (
+INFO  15:06:02,010 - #46 i
+INFO  15:06:02,010 - #29 =
+INFO  15:06:02,010 - #43 0
+INFO  15:06:02,010 - #32 ;
+INFO  15:06:02,010 - #46 i
+INFO  15:06:02,010 - #25 <
+INFO  15:06:02,010 - #43 5
+INFO  15:06:02,011 - #32 ;
+INFO  15:06:02,011 - #46 i
+INFO  15:06:02,011 - #30 ++
+INFO  15:06:02,011 - #37 )
+INFO  15:06:02,012 - #40 {
+INFO  15:06:02,012 - #41 }
+INFO  15:06:02,012 - #41 }
+INFO  15:06:02,012 - #41 }
+INFO  15:06:02,015 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclarationsVar(
+        VarDecl(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          VarDeclarationSingle(
+            VarDeclIdent(
+             i
+            ) [VarDeclIdent]
+          ) [VarDeclarationSingle]
+        ) [VarDecl]
+      ) [DeclarationsVar]
+    ) [Declarations]
+    DeclarationsVar(
+      VarDecl(
+        TypeVar(
+          Type(
+           char
+          ) [Type]
+        ) [TypeVar]
+        VarDeclarationSingle(
+          VarDeclArray(
+           nizChar
+          ) [VarDeclArray]
+        ) [VarDeclarationSingle]
+      ) [VarDecl]
+    ) [DeclarationsVar]
+  ) [Declarations]
+  MethDeclarations(
+    NoMethDeclarations(
+    ) [NoMethDeclarations]
+    MethodDeclPart(
+      MethDeclTypeNameVoid(
+       main
+      ) [MethDeclTypeNameVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethVarDecl(
+      ) [NoMethVarDecl]
+      StmtList(
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          DesignatorStmt(
+            DesignatorOpStmt(
+              DesignatorIdentSingle(
+                DesignatorSimpleIdent(
+                 nizChar
+                ) [DesignatorSimpleIdent]
+              ) [DesignatorIdentSingle]
+              DesignatorAssign(
+                AssignOp(
+                ) [AssignOp]
+                Expr(
+                  TermSingle(
+                    Term(
+                      FactorSingle(
+                        FactNewArray(
+                          Type(
+                           int
+                          ) [Type]
+                          Expr(
+                            TermSingle(
+                              Term(
+                                FactorSingle(
+                                  FactNum(
+                                   5
+                                  ) [FactNum]
+                                ) [FactorSingle]
+                              ) [Term]
+                            ) [TermSingle]
+                          ) [Expr]
+                        ) [FactNewArray]
+                      ) [FactorSingle]
+                    ) [Term]
+                  ) [TermSingle]
+                ) [Expr]
+              ) [DesignatorAssign]
+            ) [DesignatorOpStmt]
+          ) [DesignatorStmt]
+        ) [StmtList]
+        ForStmt(
+          ForBegin(
+          ) [ForBegin]
+          DesignatorStatementListPre(
+            DesignatorStmtSingle(
+              DesignatorSingle(
+                DesignatorOpStmt(
+                  DesignatorIdentSingle(
+                    DesignatorSimpleIdent(
+                     i
+                    ) [DesignatorSimpleIdent]
+                  ) [DesignatorIdentSingle]
+                  DesignatorAssign(
+                    AssignOp(
+                    ) [AssignOp]
+                    Expr(
+                      TermSingle(
+                        Term(
+                          FactorSingle(
+                            FactNum(
+                             0
+                            ) [FactNum]
+                          ) [FactorSingle]
+                        ) [Term]
+                      ) [TermSingle]
+                    ) [Expr]
+                  ) [DesignatorAssign]
+                ) [DesignatorOpStmt]
+              ) [DesignatorSingle]
+            ) [DesignatorStmtSingle]
+          ) [DesignatorStatementListPre]
+          ConditionFactFor(
+            Conditions(
+              CondTermSingle(
+                CondTerm(
+                  CondFactSingle(
+                    CondFactor(
+                      ExprRelopMulti(
+                        Expr(
+                          TermSingle(
+                            Term(
+                              FactorSingle(
+                                FactDesg(
+                                  DesignatorIdentSingle(
+                                    DesignatorSimpleIdent(
+                                     i
+                                    ) [DesignatorSimpleIdent]
+                                  ) [DesignatorIdentSingle]
+                                ) [FactDesg]
+                              ) [FactorSingle]
+                            ) [Term]
+                          ) [TermSingle]
+                        ) [Expr]
+                        Less(
+                        ) [Less]
+                        Expr(
+                          TermSingle(
+                            Term(
+                              FactorSingle(
+                                FactNum(
+                                 5
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [Term]
+                          ) [TermSingle]
+                        ) [Expr]
+                      ) [ExprRelopMulti]
+                    ) [CondFactor]
+                  ) [CondFactSingle]
+                ) [CondTerm]
+              ) [CondTermSingle]
+            ) [Conditions]
+          ) [ConditionFactFor]
+          DesignatorStatementListPost(
+            DesignatorStmtSingle(
+              DesignatorSingle(
+                DesignatorOpStmt(
+                  DesignatorIdentSingle(
+                    DesignatorSimpleIdent(
+                     i
+                    ) [DesignatorSimpleIdent]
+                  ) [DesignatorIdentSingle]
+                  DesignatorInc(
+                  ) [DesignatorInc]
+                ) [DesignatorOpStmt]
+              ) [DesignatorSingle]
+            ) [DesignatorStmtSingle]
+          ) [DesignatorStatementListPost]
+          BracesStmt(
+            NoStmtList(
+            ) [NoStmtList]
+          ) [BracesStmt]
+        ) [ForStmt]
+      ) [StmtList]
+    ) [MethodDeclPart]
+  ) [MethDeclarations]
+) [Program]
+INFO  15:06:02,016 - ====================================
+INFO  15:06:02,017 - Deklaracija promenljive na liniji 3
+INFO  15:06:02,017 - Deklaracija promenljive na liniji 4
+INFO  15:06:02,018 - Obradjuje se funkcija main na liniji 8
+ERROR 15:06:02,018 - Greska: Nekompatibilni tipovi pri dodeli vrednosti! na liniji 10
+INFO  15:06:02,018 - Broj globalnih promenljivih = 2
+ERROR 15:06:02,018 - Parsiranje NIJE uspesno zavrseno!

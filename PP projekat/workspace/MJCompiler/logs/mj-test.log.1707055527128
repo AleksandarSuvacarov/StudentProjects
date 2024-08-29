@@ -1,0 +1,17 @@
+INFO  15:05:20,673 - Compiling source file: D:\Materijali\7. semestar\PP\Projekat\pp1_domaci\workspace\MJCompiler\test\program.mj
+INFO  15:05:20,695 - #2 program
+INFO  15:05:20,695 - #46 mojProgram
+INFO  15:05:20,695 - #46 int
+INFO  15:05:20,696 - #46 i
+INFO  15:05:20,696 - #32 ;
+INFO  15:05:20,696 - #46 char
+INFO  15:05:20,697 - #46 nizChar
+INFO  15:05:20,697 - #38 [
+INFO  15:05:20,697 - #39 ]
+INFO  15:05:20,697 - #32 ;
+INFO  15:05:20,697 - #40 {
+INFO  15:05:20,697 - #46 nizChar
+INFO  15:05:20,697 - #29 =
+ERROR 15:05:20,697 - 
+Sintaksna greska na liniji 7
+ERROR 15:05:20,697 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

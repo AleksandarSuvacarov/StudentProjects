@@ -1,0 +1,77 @@
+program mojProrgam
+
+namespace nmsp{
+
+	int niz[];
+	int niz1[];
+	{
+		bool verify(){
+			return false;
+		}
+	}
+}
+
+int niz[];
+
+int a;
+int b;
+int c;
+
+{
+	int sum(int a, int b){
+		return a + b;
+	}
+	
+	void main()
+		int a, i;
+	{
+		a = 3;
+		nmsp::niz = new int[3];
+		nmsp::niz1 = new int[3];
+		niz = new int[5];
+		
+		niz[0] = 0;
+		niz[1] = 1;
+		niz[2] = 2;
+		
+		a = 4;
+		b = 3;
+		
+		//print(sum(a,b));
+		
+		for(i = 0; i < 5; i++){
+			
+			for(a = 0; a < 5; a++){
+				
+				print(i * 5 + a);
+			}
+			
+			print(eol);
+		}
+		print(eol);
+		if(nmsp::verify() && b > 1){
+			
+			if(b >= 3)
+				c = 0;
+			else
+				c = 1;
+		}
+		else{
+			c = 2;
+		}
+		
+		print(c);
+		
+		print(eol);
+		for(i = 0; i < 5; i++){
+				
+			a = i % 2;
+			if(a == 0) print('p');
+			else print('n');
+		}
+		
+		
+		return;
+	}
+	
+}

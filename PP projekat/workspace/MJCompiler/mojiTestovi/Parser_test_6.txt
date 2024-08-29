@@ -1,0 +1,79 @@
+program mojProrgam
+
+namespace nmsp{
+
+	int x, xx;
+	
+	{
+		int verify()
+			int x;
+		{
+			x = 4 + 2 * 3;
+			print(x);
+			return x;
+		}
+		
+		int fja(int a, int b)
+			int x, z;
+			bool niz[];
+		{
+			verify();
+			verify();
+			return x;
+		}
+		
+		void nista(){
+		
+		}
+		
+	}
+
+}
+
+int a;
+
+const int b = 2;
+
+char charVar;
+
+int niz[];
+
+{
+	void main()
+		int c;
+	{
+		read(charVar);
+		print(charVar);
+		
+		niz = new int[3];
+		
+		a = len(niz);
+		print(a);
+		
+		charVar = chr(99);
+		print(charVar);
+		nmsp::x = (1 + 7 * 2 - 1) / (b + 5) * 2;
+		//nmsp::x = (1 + 7 * 2 - 1);
+		niz[0] = nmsp::x;
+		print(niz[0]);
+		
+		c = nmsp::x + nmsp::verify();
+		print(c);
+		niz[0]++;
+		print(niz[0]);
+		niz[0]++;
+		print(niz[0]);
+		niz[0]--;
+		print(niz[0]);
+		print(nmsp::x);
+		
+		//nmsp::nista();
+		
+		nmsp::verify();
+		nmsp::fja(nmsp::x, a);
+		
+		
+		return;
+	}
+	
+}

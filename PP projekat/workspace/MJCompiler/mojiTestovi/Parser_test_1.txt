@@ -1,0 +1,37 @@
+program MJProgram
+
+	namespace Addition{
+		int i;
+		bool ibool;
+		
+		{}
+	}
+	
+	namespace Addition2{
+		int i;
+		const bool ibool = true;
+		
+		{}
+	}
+
+
+	int niz2[];
+	
+	const int niz = 4, broj = 6;
+	int a[], curr[];
+{
+	int sum()
+		int x, y, z;
+		int b;
+	{
+	
+	}
+	
+	int sum(int a, int niz[], char c)
+		int x, y, z;
+	{}
+	
+	void sum(){
+	}
+
+}

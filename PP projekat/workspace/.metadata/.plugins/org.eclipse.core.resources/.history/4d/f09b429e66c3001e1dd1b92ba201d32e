@@ -1,0 +1,20 @@
+program mojProgram
+
+int i;
+char nizChar[];
+
+{
+
+	void main(){
+	
+		nizChar = new char[5];
+		for(i = 0; i < 5; i++){
+			
+			
+		
+		}
+	
+	
+	}
+
+}

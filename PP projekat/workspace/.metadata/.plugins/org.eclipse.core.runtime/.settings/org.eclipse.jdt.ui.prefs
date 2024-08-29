@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Readable"><rhs name\="java.io.BufferedReader"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.BufferedReader"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.BufferedReader"/></lhs><lhs name\="java.io.Reader"><rhs name\="java.io.BufferedReader"/></lhs><lhs name\="java_cup.runtime.lr_parser"><rhs name\="rs.ac.bg.etf.pp1.MJParser"/></lhs><lhs name\="rs.ac.bg.etf.pp1.MJParser"><rhs name\="rs.ac.bg.etf.pp1.MJParser"/></lhs><lhs name\="rs.etf.pp1.symboltable.visitors.SymbolTableVisitor"><rhs name\="rs.ac.bg.etf.pp1.MojSymbolTableVisitor"/></lhs><lhs name\="rs.ac.bg.etf.pp1.MojSymbolTableVisitor"><rhs name\="rs.ac.bg.etf.pp1.MojSymbolTableVisitor"/></lhs><lhs name\="rs.etf.pp1.symboltable.concepts.Obj"><rhs name\="rs.etf.pp1.symboltable.concepts.Obj"/></lhs><lhs name\="rs.ac.bg.etf.pp1.ast.SyntaxNode"><rhs name\="rs.ac.bg.etf.pp1.ast.DesignatorFunc"/><rhs name\="rs.ac.bg.etf.pp1.ast.DesignatorAssign"/><rhs name\="rs.ac.bg.etf.pp1.ast.DesignatorNamespaceIdent"/><rhs name\="rs.ac.bg.etf.pp1.ast.DesignatorArray"/></lhs><lhs name\="rs.ac.bg.etf.pp1.ast.DesignatorOp"><rhs name\="rs.ac.bg.etf.pp1.ast.DesignatorFunc"/><rhs name\="rs.ac.bg.etf.pp1.ast.DesignatorAssign"/></lhs><lhs name\="rs.ac.bg.etf.pp1.ast.DesignatorIdent"><rhs name\="rs.ac.bg.etf.pp1.ast.DesignatorNamespaceIdent"/></lhs><lhs name\="rs.ac.bg.etf.pp1.ast.Designator"><rhs name\="rs.ac.bg.etf.pp1.ast.DesignatorArray"/></lhs><lhs name\="rs.ac.bg.etf.pp1.SemanticPass$ActClass"><rhs name\="rs.ac.bg.etf.pp1.SemanticPass$ActClass"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

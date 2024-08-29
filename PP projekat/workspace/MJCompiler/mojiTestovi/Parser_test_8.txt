@@ -1,0 +1,36 @@
+program mojProgram
+//Testiranje raspakivanja
+
+int a, b, c;
+int nizLevi[];
+int nizDesni[];
+
+int niz3[];
+
+{
+
+
+	void main(){
+	
+		nizLevi = new int[3];
+		nizDesni = new int[4];
+		niz3 = new int[2];
+		
+		
+		nizDesni[0] = 5;
+		nizDesni[1] = 6;
+		nizDesni[2] = 7;
+		nizDesni[3] = 8;
+		//nizDesni[4] = 9;
+	
+		[a, niz3[1], c, *nizLevi] = nizDesni;
+	
+		print(a);
+		print(niz3[1]);
+		print(c);
+		print(nizLevi[0]);
+	
+	}	
+
+
+}

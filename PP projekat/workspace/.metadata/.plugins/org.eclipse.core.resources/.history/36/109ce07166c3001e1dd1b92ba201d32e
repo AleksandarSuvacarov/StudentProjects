@@ -1,0 +1,14 @@
+program mojProgram
+
+int i;
+char nizChar[];
+
+{
+	nizChar = new int[];
+	for(i = 0; i < 5; i++){
+		
+		
+	
+	}
+
+}

@@ -1,0 +1,75 @@
+
+program MojProgram
+
+namespace nmsp{
+
+	bool x;
+	int lika;
+	int niz;
+	
+	{
+		int fja(int a)
+			int x, xx;	
+		{
+			lika = 4;
+			return lika;
+		}
+	}
+}
+
+namespace drugi_ns{
+	bool lalala;
+	
+	{}
+}
+
+bool y, z;
+
+int niz[];
+
+const int t = 4;
+
+int intVar;
+
+{
+	bool verify() {
+		print('v');
+		return true;
+	}
+	
+	bool proba_bool(int a, int b[], bool c)
+		char l;	
+	{
+		//b[3]++;
+		//nmsp::lika = 3;
+		niz[3] = t + niz;
+		intVar = (4 + nmsp::lika) * nmsp::lika + (niz[4] + 3) * 5;
+		return drugi_ns::lalala;
+	}
+	
+	void main(){
+	
+		nmsp::fja(5);
+		nmsp::niz++;
+		proba_bool(t, niz, y);
+		len(niz);
+		print(eol);
+		ord('l');
+		read(niz[3]);
+		if(nmsp::fja(5) == len(niz) || y == false && verify()) print(nmsp::x);
+		
+		for(intVar = 3; nmsp::fja(5) == len(niz); intVar++){
+			for(;;){
+				break;
+			}
+			if(nmsp::fja(5) == len(niz) || y == false && verify()) {
+				print(nmsp::x);
+				break;
+			}
+		}
+	
+		//return;
+	}
+
+
+}

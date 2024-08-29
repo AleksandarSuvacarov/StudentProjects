@@ -1,0 +1,2038 @@
+INFO  14:45:56,600 - Compiling source file: D:\Materijali\7. semestar\PP\Projekat\pp1_domaci\workspace\MJCompiler\test\program.mj
+INFO  14:45:56,621 - #2 program
+INFO  14:45:56,621 - #46 test302
+INFO  14:45:56,621 - #15 namespace
+INFO  14:45:56,622 - #46 Addition
+INFO  14:45:56,622 - #40 {
+INFO  14:45:56,622 - #40 {
+INFO  14:45:56,622 - #46 int
+INFO  14:45:56,623 - #46 sum
+INFO  14:45:56,623 - #36 (
+INFO  14:45:56,623 - #46 int
+INFO  14:45:56,623 - #46 z
+INFO  14:45:56,623 - #33 ,
+INFO  14:45:56,623 - #46 int
+INFO  14:45:56,623 - #46 d
+INFO  14:45:56,623 - #37 )
+INFO  14:45:56,624 - #40 {
+INFO  14:45:56,624 - #10 return
+INFO  14:45:56,624 - #43 1
+INFO  14:45:56,624 - #32 ;
+INFO  14:45:56,625 - #41 }
+INFO  14:45:56,625 - #46 int
+INFO  14:45:56,625 - #46 inkrement
+INFO  14:45:56,625 - #36 (
+INFO  14:45:56,625 - #46 int
+INFO  14:45:56,626 - #46 a
+INFO  14:45:56,626 - #33 ,
+INFO  14:45:56,626 - #46 int
+INFO  14:45:56,626 - #46 inc
+INFO  14:45:56,626 - #37 )
+INFO  14:45:56,626 - #46 int
+INFO  14:45:56,626 - #46 pom
+INFO  14:45:56,626 - #32 ;
+INFO  14:45:56,626 - #40 {
+INFO  14:45:56,626 - #10 return
+INFO  14:45:56,627 - #46 sum
+INFO  14:45:56,627 - #36 (
+INFO  14:45:56,627 - #46 a
+INFO  14:45:56,627 - #33 ,
+INFO  14:45:56,627 - #46 pom
+INFO  14:45:56,627 - #37 )
+INFO  14:45:56,627 - #32 ;
+INFO  14:45:56,627 - #41 }
+INFO  14:45:56,628 - #41 }
+INFO  14:45:56,628 - #41 }
+INFO  14:45:56,628 - #15 namespace
+INFO  14:45:56,628 - #46 Unpacking
+INFO  14:45:56,628 - #40 {
+INFO  14:45:56,628 - #46 int
+INFO  14:45:56,628 - #46 niz
+INFO  14:45:56,628 - #38 [
+INFO  14:45:56,628 - #39 ]
+INFO  14:45:56,628 - #33 ,
+INFO  14:45:56,628 - #46 niz2
+INFO  14:45:56,628 - #38 [
+INFO  14:45:56,628 - #39 ]
+INFO  14:45:56,628 - #33 ,
+INFO  14:45:56,629 - #46 niz3
+INFO  14:45:56,629 - #38 [
+INFO  14:45:56,629 - #39 ]
+INFO  14:45:56,629 - #32 ;
+INFO  14:45:56,629 - #46 int
+INFO  14:45:56,629 - #46 a
+INFO  14:45:56,629 - #33 ,
+INFO  14:45:56,629 - #46 b
+INFO  14:45:56,629 - #32 ;
+INFO  14:45:56,629 - #40 {
+INFO  14:45:56,629 - #41 }
+INFO  14:45:56,629 - #41 }
+INFO  14:45:56,629 - #46 int
+INFO  14:45:56,629 - #46 i
+INFO  14:45:56,629 - #32 ;
+INFO  14:45:56,629 - #46 bool
+INFO  14:45:56,629 - #46 ibool
+INFO  14:45:56,629 - #32 ;
+INFO  14:45:56,629 - #46 int
+INFO  14:45:56,629 - #46 niz2
+INFO  14:45:56,629 - #32 ;
+INFO  14:45:56,630 - #46 int
+INFO  14:45:56,630 - #46 niz
+INFO  14:45:56,630 - #38 [
+INFO  14:45:56,630 - #39 ]
+INFO  14:45:56,630 - #32 ;
+INFO  14:45:56,630 - #46 int
+INFO  14:45:56,630 - #46 a
+INFO  14:45:56,630 - #33 ,
+INFO  14:45:56,630 - #46 curr
+INFO  14:45:56,630 - #32 ;
+INFO  14:45:56,630 - #40 {
+INFO  14:45:56,630 - #46 bool
+INFO  14:45:56,630 - #46 verify
+INFO  14:45:56,630 - #36 (
+INFO  14:45:56,630 - #37 )
+INFO  14:45:56,630 - #40 {
+INFO  14:45:56,630 - #8 print
+INFO  14:45:56,630 - #36 (
+INFO  14:45:56,631 - #45 v
+INFO  14:45:56,631 - #37 )
+INFO  14:45:56,631 - #32 ;
+INFO  14:45:56,631 - #10 return
+INFO  14:45:56,631 - #44 false
+INFO  14:45:56,631 - #32 ;
+INFO  14:45:56,631 - #41 }
+INFO  14:45:56,631 - #11 void
+INFO  14:45:56,631 - #46 main
+INFO  14:45:56,631 - #36 (
+INFO  14:45:56,631 - #37 )
+INFO  14:45:56,631 - #40 {
+INFO  14:45:56,631 - #46 niz2
+INFO  14:45:56,631 - #29 =
+INFO  14:45:56,631 - #43 0
+INFO  14:45:56,632 - #32 ;
+INFO  14:45:56,632 - #13 for
+INFO  14:45:56,632 - #36 (
+INFO  14:45:56,632 - #46 i
+INFO  14:45:56,632 - #29 =
+INFO  14:45:56,632 - #43 0
+INFO  14:45:56,632 - #32 ;
+INFO  14:45:56,633 - #46 i
+INFO  14:45:56,633 - #25 <
+INFO  14:45:56,633 - #43 3
+INFO  14:45:56,633 - #32 ;
+INFO  14:45:56,634 - #46 i
+INFO  14:45:56,634 - #30 ++
+INFO  14:45:56,634 - #37 )
+INFO  14:45:56,634 - #46 niz2
+INFO  14:45:56,634 - #29 =
+INFO  14:45:56,634 - #46 niz2
+INFO  14:45:56,634 - #16 +
+INFO  14:45:56,634 - #46 niz
+INFO  14:45:56,635 - #38 [
+INFO  14:45:56,635 - #46 i
+INFO  14:45:56,635 - #39 ]
+INFO  14:45:56,635 - #18 *
+INFO  14:45:56,635 - #46 niz
+INFO  14:45:56,635 - #38 [
+INFO  14:45:56,635 - #46 i
+INFO  14:45:56,635 - #39 ]
+INFO  14:45:56,635 - #32 ;
+INFO  14:45:56,636 - #8 print
+INFO  14:45:56,636 - #36 (
+INFO  14:45:56,636 - #46 niz2
+INFO  14:45:56,636 - #37 )
+INFO  14:45:56,636 - #32 ;
+INFO  14:45:56,636 - #46 Unpacking
+INFO  14:45:56,636 - #42 ::
+INFO  14:45:56,636 - #46 niz
+INFO  14:45:56,636 - #29 =
+INFO  14:45:56,636 - #7 new
+INFO  14:45:56,636 - #46 int
+INFO  14:45:56,636 - #38 [
+INFO  14:45:56,636 - #43 4
+INFO  14:45:56,636 - #39 ]
+INFO  14:45:56,636 - #32 ;
+INFO  14:45:56,636 - #46 Unpacking
+INFO  14:45:56,636 - #42 ::
+INFO  14:45:56,636 - #46 niz
+INFO  14:45:56,636 - #38 [
+INFO  14:45:56,636 - #43 0
+INFO  14:45:56,636 - #39 ]
+INFO  14:45:56,636 - #29 =
+INFO  14:45:56,636 - #43 1
+INFO  14:45:56,636 - #32 ;
+INFO  14:45:56,636 - #46 Unpacking
+INFO  14:45:56,637 - #42 ::
+INFO  14:45:56,637 - #46 niz
+INFO  14:45:56,637 - #38 [
+INFO  14:45:56,637 - #43 1
+INFO  14:45:56,637 - #39 ]
+INFO  14:45:56,637 - #29 =
+INFO  14:45:56,637 - #43 2
+INFO  14:45:56,637 - #32 ;
+INFO  14:45:56,637 - #46 Unpacking
+INFO  14:45:56,637 - #42 ::
+INFO  14:45:56,637 - #46 niz
+INFO  14:45:56,637 - #38 [
+INFO  14:45:56,637 - #43 2
+INFO  14:45:56,637 - #39 ]
+INFO  14:45:56,637 - #29 =
+INFO  14:45:56,637 - #43 6
+INFO  14:45:56,637 - #32 ;
+INFO  14:45:56,637 - #46 Unpacking
+INFO  14:45:56,637 - #42 ::
+INFO  14:45:56,637 - #46 niz
+INFO  14:45:56,637 - #38 [
+INFO  14:45:56,637 - #43 3
+INFO  14:45:56,637 - #39 ]
+INFO  14:45:56,637 - #29 =
+INFO  14:45:56,637 - #43 7
+INFO  14:45:56,637 - #32 ;
+INFO  14:45:56,637 - #8 print
+INFO  14:45:56,637 - #36 (
+INFO  14:45:56,637 - #46 eol
+INFO  14:45:56,637 - #37 )
+INFO  14:45:56,637 - #32 ;
+INFO  14:45:56,638 - #46 Unpacking
+INFO  14:45:56,638 - #42 ::
+INFO  14:45:56,638 - #46 niz2
+INFO  14:45:56,638 - #29 =
+INFO  14:45:56,638 - #7 new
+INFO  14:45:56,638 - #46 int
+INFO  14:45:56,638 - #38 [
+INFO  14:45:56,638 - #43 1
+INFO  14:45:56,638 - #39 ]
+INFO  14:45:56,638 - #32 ;
+INFO  14:45:56,638 - #38 [
+INFO  14:45:56,638 - #46 Unpacking
+INFO  14:45:56,638 - #42 ::
+INFO  14:45:56,638 - #46 a
+INFO  14:45:56,638 - #33 ,
+INFO  14:45:56,638 - #46 Unpacking
+INFO  14:45:56,638 - #42 ::
+INFO  14:45:56,638 - #46 b
+INFO  14:45:56,638 - #33 ,
+INFO  14:45:56,638 - #18 *
+INFO  14:45:56,638 - #46 Unpacking
+INFO  14:45:56,638 - #42 ::
+INFO  14:45:56,638 - #46 niz2
+INFO  14:45:56,638 - #39 ]
+INFO  14:45:56,639 - #29 =
+INFO  14:45:56,639 - #46 Unpacking
+INFO  14:45:56,639 - #42 ::
+INFO  14:45:56,639 - #46 niz
+INFO  14:45:56,639 - #32 ;
+INFO  14:45:56,639 - #8 print
+INFO  14:45:56,639 - #36 (
+INFO  14:45:56,639 - #46 Unpacking
+INFO  14:45:56,639 - #42 ::
+INFO  14:45:56,639 - #46 a
+INFO  14:45:56,639 - #37 )
+INFO  14:45:56,639 - #32 ;
+INFO  14:45:56,639 - #8 print
+INFO  14:45:56,639 - #36 (
+INFO  14:45:56,639 - #46 Unpacking
+INFO  14:45:56,639 - #42 ::
+INFO  14:45:56,639 - #46 b
+INFO  14:45:56,639 - #37 )
+INFO  14:45:56,639 - #32 ;
+INFO  14:45:56,639 - #8 print
+INFO  14:45:56,639 - #36 (
+INFO  14:45:56,639 - #46 Unpacking
+INFO  14:45:56,639 - #42 ::
+INFO  14:45:56,639 - #46 niz2
+INFO  14:45:56,639 - #38 [
+INFO  14:45:56,639 - #43 0
+INFO  14:45:56,639 - #39 ]
+INFO  14:45:56,639 - #37 )
+INFO  14:45:56,639 - #32 ;
+INFO  14:45:56,639 - #8 print
+INFO  14:45:56,639 - #36 (
+INFO  14:45:56,639 - #46 eol
+INFO  14:45:56,639 - #37 )
+INFO  14:45:56,639 - #32 ;
+INFO  14:45:56,639 - #46 Unpacking
+INFO  14:45:56,639 - #42 ::
+INFO  14:45:56,639 - #46 niz2
+INFO  14:45:56,639 - #29 =
+INFO  14:45:56,640 - #7 new
+INFO  14:45:56,640 - #46 int
+INFO  14:45:56,640 - #38 [
+INFO  14:45:56,640 - #43 1
+INFO  14:45:56,640 - #39 ]
+INFO  14:45:56,640 - #32 ;
+INFO  14:45:56,640 - #38 [
+INFO  14:45:56,640 - #33 ,
+INFO  14:45:56,640 - #46 Unpacking
+INFO  14:45:56,640 - #42 ::
+INFO  14:45:56,640 - #46 a
+INFO  14:45:56,640 - #33 ,
+INFO  14:45:56,640 - #18 *
+INFO  14:45:56,640 - #46 Unpacking
+INFO  14:45:56,640 - #42 ::
+INFO  14:45:56,640 - #46 niz2
+INFO  14:45:56,640 - #39 ]
+INFO  14:45:56,640 - #29 =
+INFO  14:45:56,640 - #46 niz
+INFO  14:45:56,640 - #32 ;
+INFO  14:45:56,640 - #8 print
+INFO  14:45:56,640 - #36 (
+INFO  14:45:56,640 - #46 Unpacking
+INFO  14:45:56,640 - #42 ::
+INFO  14:45:56,640 - #46 a
+INFO  14:45:56,640 - #37 )
+INFO  14:45:56,640 - #32 ;
+INFO  14:45:56,640 - #8 print
+INFO  14:45:56,640 - #36 (
+INFO  14:45:56,640 - #46 Unpacking
+INFO  14:45:56,640 - #42 ::
+INFO  14:45:56,640 - #46 niz2
+INFO  14:45:56,640 - #38 [
+INFO  14:45:56,640 - #43 0
+INFO  14:45:56,640 - #39 ]
+INFO  14:45:56,640 - #37 )
+INFO  14:45:56,640 - #32 ;
+INFO  14:45:56,640 - #8 print
+INFO  14:45:56,640 - #36 (
+INFO  14:45:56,641 - #46 eol
+INFO  14:45:56,641 - #37 )
+INFO  14:45:56,641 - #32 ;
+INFO  14:45:56,641 - #46 Unpacking
+INFO  14:45:56,641 - #42 ::
+INFO  14:45:56,641 - #46 niz2
+INFO  14:45:56,641 - #29 =
+INFO  14:45:56,641 - #7 new
+INFO  14:45:56,641 - #46 int
+INFO  14:45:56,641 - #38 [
+INFO  14:45:56,641 - #43 2
+INFO  14:45:56,641 - #39 ]
+INFO  14:45:56,641 - #32 ;
+INFO  14:45:56,641 - #46 Unpacking
+INFO  14:45:56,641 - #42 ::
+INFO  14:45:56,641 - #46 niz3
+INFO  14:45:56,641 - #29 =
+INFO  14:45:56,641 - #7 new
+INFO  14:45:56,641 - #46 int
+INFO  14:45:56,641 - #38 [
+INFO  14:45:56,641 - #43 1
+INFO  14:45:56,641 - #39 ]
+INFO  14:45:56,641 - #32 ;
+INFO  14:45:56,641 - #38 [
+INFO  14:45:56,641 - #46 Unpacking
+INFO  14:45:56,641 - #42 ::
+INFO  14:45:56,641 - #46 niz2
+INFO  14:45:56,641 - #38 [
+INFO  14:45:56,641 - #43 0
+INFO  14:45:56,641 - #39 ]
+INFO  14:45:56,641 - #33 ,
+INFO  14:45:56,641 - #33 ,
+INFO  14:45:56,641 - #46 Unpacking
+INFO  14:45:56,641 - #42 ::
+INFO  14:45:56,641 - #46 niz2
+INFO  14:45:56,641 - #38 [
+INFO  14:45:56,641 - #46 Unpacking
+INFO  14:45:56,641 - #42 ::
+INFO  14:45:56,641 - #46 niz
+INFO  14:45:56,641 - #38 [
+INFO  14:45:56,641 - #43 0
+INFO  14:45:56,641 - #39 ]
+INFO  14:45:56,641 - #39 ]
+INFO  14:45:56,642 - #33 ,
+INFO  14:45:56,642 - #18 *
+INFO  14:45:56,642 - #46 Unpacking
+INFO  14:45:56,642 - #42 ::
+INFO  14:45:56,642 - #46 niz3
+INFO  14:45:56,642 - #39 ]
+INFO  14:45:56,642 - #29 =
+INFO  14:45:56,642 - #46 Unpacking
+INFO  14:45:56,642 - #42 ::
+INFO  14:45:56,642 - #46 niz
+INFO  14:45:56,642 - #32 ;
+INFO  14:45:56,642 - #8 print
+INFO  14:45:56,642 - #36 (
+INFO  14:45:56,642 - #46 Unpacking
+INFO  14:45:56,642 - #42 ::
+INFO  14:45:56,642 - #46 niz2
+INFO  14:45:56,642 - #38 [
+INFO  14:45:56,642 - #43 0
+INFO  14:45:56,642 - #39 ]
+INFO  14:45:56,642 - #37 )
+INFO  14:45:56,642 - #32 ;
+INFO  14:45:56,642 - #8 print
+INFO  14:45:56,642 - #36 (
+INFO  14:45:56,642 - #46 Unpacking
+INFO  14:45:56,642 - #42 ::
+INFO  14:45:56,642 - #46 niz2
+INFO  14:45:56,642 - #38 [
+INFO  14:45:56,642 - #43 1
+INFO  14:45:56,642 - #39 ]
+INFO  14:45:56,642 - #37 )
+INFO  14:45:56,642 - #32 ;
+INFO  14:45:56,642 - #8 print
+INFO  14:45:56,642 - #36 (
+INFO  14:45:56,642 - #46 Unpacking
+INFO  14:45:56,642 - #42 ::
+INFO  14:45:56,642 - #46 niz3
+INFO  14:45:56,642 - #38 [
+INFO  14:45:56,642 - #43 0
+INFO  14:45:56,642 - #39 ]
+INFO  14:45:56,642 - #37 )
+INFO  14:45:56,642 - #32 ;
+INFO  14:45:56,642 - #8 print
+INFO  14:45:56,642 - #36 (
+INFO  14:45:56,642 - #46 eol
+INFO  14:45:56,642 - #37 )
+INFO  14:45:56,642 - #32 ;
+INFO  14:45:56,642 - #46 Unpacking
+INFO  14:45:56,643 - #42 ::
+INFO  14:45:56,643 - #46 niz3
+INFO  14:45:56,643 - #29 =
+INFO  14:45:56,643 - #7 new
+INFO  14:45:56,643 - #46 int
+INFO  14:45:56,643 - #38 [
+INFO  14:45:56,643 - #43 3
+INFO  14:45:56,643 - #39 ]
+INFO  14:45:56,643 - #32 ;
+INFO  14:45:56,643 - #38 [
+INFO  14:45:56,643 - #18 *
+INFO  14:45:56,643 - #46 Unpacking
+INFO  14:45:56,643 - #42 ::
+INFO  14:45:56,643 - #46 niz3
+INFO  14:45:56,643 - #39 ]
+INFO  14:45:56,643 - #29 =
+INFO  14:45:56,643 - #46 niz
+INFO  14:45:56,643 - #32 ;
+INFO  14:45:56,643 - #8 print
+INFO  14:45:56,643 - #36 (
+INFO  14:45:56,643 - #46 Unpacking
+INFO  14:45:56,643 - #42 ::
+INFO  14:45:56,643 - #46 niz3
+INFO  14:45:56,643 - #38 [
+INFO  14:45:56,643 - #43 0
+INFO  14:45:56,643 - #39 ]
+INFO  14:45:56,643 - #37 )
+INFO  14:45:56,643 - #32 ;
+INFO  14:45:56,643 - #8 print
+INFO  14:45:56,643 - #36 (
+INFO  14:45:56,643 - #46 Unpacking
+INFO  14:45:56,643 - #42 ::
+INFO  14:45:56,643 - #46 niz3
+INFO  14:45:56,643 - #38 [
+INFO  14:45:56,643 - #43 1
+INFO  14:45:56,643 - #39 ]
+INFO  14:45:56,643 - #37 )
+INFO  14:45:56,643 - #32 ;
+INFO  14:45:56,643 - #8 print
+INFO  14:45:56,643 - #36 (
+INFO  14:45:56,643 - #46 Unpacking
+INFO  14:45:56,643 - #42 ::
+INFO  14:45:56,643 - #46 niz3
+INFO  14:45:56,643 - #38 [
+INFO  14:45:56,643 - #43 2
+INFO  14:45:56,643 - #39 ]
+INFO  14:45:56,643 - #37 )
+INFO  14:45:56,643 - #32 ;
+INFO  14:45:56,643 - #8 print
+INFO  14:45:56,643 - #36 (
+INFO  14:45:56,643 - #46 eol
+INFO  14:45:56,643 - #37 )
+INFO  14:45:56,644 - #32 ;
+INFO  14:45:56,644 - #41 }
+INFO  14:45:56,644 - #41 }
+INFO  14:45:56,650 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceDeclarations(
+    NamespaceDeclarations(
+      NoNamespaceDeclarations(
+      ) [NoNamespaceDeclarations]
+      NamespacePart(
+        NamespaceName(
+         Addition
+        ) [NamespaceName]
+        NoDeclarations(
+        ) [NoDeclarations]
+        MethDeclarations(
+          MethDeclarations(
+            NoMethDeclarations(
+            ) [NoMethDeclarations]
+            MethodDeclPart(
+              MethDeclTypeNameIdent(
+                Type(
+                 int
+                ) [Type]
+               sum
+              ) [MethDeclTypeNameIdent]
+              FormParams(
+                FormParamDecl(
+                  FormParamDeclSingle(
+                    FormParamDeclIdent(
+                      Type(
+                       int
+                      ) [Type]
+                     z
+                    ) [FormParamDeclIdent]
+                  ) [FormParamDeclSingle]
+                  FormParamDeclIdent(
+                    Type(
+                     int
+                    ) [Type]
+                   d
+                  ) [FormParamDeclIdent]
+                ) [FormParamDecl]
+              ) [FormParams]
+              NoMethVarDecl(
+              ) [NoMethVarDecl]
+              StmtList(
+                NoStmtList(
+                ) [NoStmtList]
+                ReturnValStmt(
+                  Expr(
+                    TermSingle(
+                      Term(
+                        FactorSingle(
+                          FactNum(
+                           1
+                          ) [FactNum]
+                        ) [FactorSingle]
+                      ) [Term]
+                    ) [TermSingle]
+                  ) [Expr]
+                ) [ReturnValStmt]
+              ) [StmtList]
+            ) [MethodDeclPart]
+          ) [MethDeclarations]
+          MethodDeclPart(
+            MethDeclTypeNameIdent(
+              Type(
+               int
+              ) [Type]
+             inkrement
+            ) [MethDeclTypeNameIdent]
+            FormParams(
+              FormParamDecl(
+                FormParamDeclSingle(
+                  FormParamDeclIdent(
+                    Type(
+                     int
+                    ) [Type]
+                   a
+                  ) [FormParamDeclIdent]
+                ) [FormParamDeclSingle]
+                FormParamDeclIdent(
+                  Type(
+                   int
+                  ) [Type]
+                 inc
+                ) [FormParamDeclIdent]
+              ) [FormParamDecl]
+            ) [FormParams]
+            MethVarDecl(
+              NoMethVarDecl(
+              ) [NoMethVarDecl]
+              VarDecl(
+                TypeVar(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeVar]
+                VarDeclarationSingle(
+                  VarDeclIdent(
+                   pom
+                  ) [VarDeclIdent]
+                ) [VarDeclarationSingle]
+              ) [VarDecl]
+            ) [MethVarDecl]
+            StmtList(
+              NoStmtList(
+              ) [NoStmtList]
+              ReturnValStmt(
+                Expr(
+                  TermSingle(
+                    Term(
+                      FactorSingle(
+                        FactFunc(
+                          DesignatorIdentSingle(
+                            DesignatorSimpleIdent(
+                             sum
+                            ) [DesignatorSimpleIdent]
+                          ) [DesignatorIdentSingle]
+                          ActualParsBegin(
+                          ) [ActualParsBegin]
+                          Actuals(
+                            ActualParams(
+                              ActualParam(
+                                Expr(
+                                  TermSingle(
+                                    Term(
+                                      FactorSingle(
+                                        FactDesg(
+                                          DesignatorIdentSingle(
+                                            DesignatorSimpleIdent(
+                                             a
+                                            ) [DesignatorSimpleIdent]
+                                          ) [DesignatorIdentSingle]
+                                        ) [FactDesg]
+                                      ) [FactorSingle]
+                                    ) [Term]
+                                  ) [TermSingle]
+                                ) [Expr]
+                              ) [ActualParam]
+                              Expr(
+                                TermSingle(
+                                  Term(
+                                    FactorSingle(
+                                      FactDesg(
+                                        DesignatorIdentSingle(
+                                          DesignatorSimpleIdent(
+                                           pom
+                                          ) [DesignatorSimpleIdent]
+                                        ) [DesignatorIdentSingle]
+                                      ) [FactDesg]
+                                    ) [FactorSingle]
+                                  ) [Term]
+                                ) [TermSingle]
+                              ) [Expr]
+                            ) [ActualParams]
+                          ) [Actuals]
+                        ) [FactFunc]
+                      ) [FactorSingle]
+                    ) [Term]
+                  ) [TermSingle]
+                ) [Expr]
+              ) [ReturnValStmt]
+            ) [StmtList]
+          ) [MethodDeclPart]
+        ) [MethDeclarations]
+      ) [NamespacePart]
+    ) [NamespaceDeclarations]
+    NamespacePart(
+      NamespaceName(
+       Unpacking
+      ) [NamespaceName]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclarationsVar(
+            VarDecl(
+              TypeVar(
+                Type(
+                 int
+                ) [Type]
+              ) [TypeVar]
+              VarDeclarationList(
+                VarDeclarationList(
+                  VarDeclarationSingle(
+                    VarDeclArray(
+                     niz
+                    ) [VarDeclArray]
+                  ) [VarDeclarationSingle]
+                  VarDeclArray(
+                   niz2
+                  ) [VarDeclArray]
+                ) [VarDeclarationList]
+                VarDeclArray(
+                 niz3
+                ) [VarDeclArray]
+              ) [VarDeclarationList]
+            ) [VarDecl]
+          ) [DeclarationsVar]
+        ) [Declarations]
+        DeclarationsVar(
+          VarDecl(
+            TypeVar(
+              Type(
+               int
+              ) [Type]
+            ) [TypeVar]
+            VarDeclarationList(
+              VarDeclarationSingle(
+                VarDeclIdent(
+                 a
+                ) [VarDeclIdent]
+              ) [VarDeclarationSingle]
+              VarDeclIdent(
+               b
+              ) [VarDeclIdent]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [DeclarationsVar]
+      ) [Declarations]
+      NoMethDeclarations(
+      ) [NoMethDeclarations]
+    ) [NamespacePart]
+  ) [NamespaceDeclarations]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclarationsVar(
+              VarDecl(
+                TypeVar(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeVar]
+                VarDeclarationSingle(
+                  VarDeclIdent(
+                   i
+                  ) [VarDeclIdent]
+                ) [VarDeclarationSingle]
+              ) [VarDecl]
+            ) [DeclarationsVar]
+          ) [Declarations]
+          DeclarationsVar(
+            VarDecl(
+              TypeVar(
+                Type(
+                 bool
+                ) [Type]
+              ) [TypeVar]
+              VarDeclarationSingle(
+                VarDeclIdent(
+                 ibool
+                ) [VarDeclIdent]
+              ) [VarDeclarationSingle]
+            ) [VarDecl]
+          ) [DeclarationsVar]
+        ) [Declarations]
+        DeclarationsVar(
+          VarDecl(
+            TypeVar(
+              Type(
+               int
+              ) [Type]
+            ) [TypeVar]
+            VarDeclarationSingle(
+              VarDeclIdent(
+               niz2
+              ) [VarDeclIdent]
+            ) [VarDeclarationSingle]
+          ) [VarDecl]
+        ) [DeclarationsVar]
+      ) [Declarations]
+      DeclarationsVar(
+        VarDecl(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          VarDeclarationSingle(
+            VarDeclArray(
+             niz
+            ) [VarDeclArray]
+          ) [VarDeclarationSingle]
+        ) [VarDecl]
+      ) [DeclarationsVar]
+    ) [Declarations]
+    DeclarationsVar(
+      VarDecl(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        VarDeclarationList(
+          VarDeclarationSingle(
+            VarDeclIdent(
+             a
+            ) [VarDeclIdent]
+          ) [VarDeclarationSingle]
+          VarDeclIdent(
+           curr
+          ) [VarDeclIdent]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [DeclarationsVar]
+  ) [Declarations]
+  MethDeclarations(
+    MethDeclarations(
+      NoMethDeclarations(
+      ) [NoMethDeclarations]
+      MethodDeclPart(
+        MethDeclTypeNameIdent(
+          Type(
+           bool
+          ) [Type]
+         verify
+        ) [MethDeclTypeNameIdent]
+        NoFormParams(
+        ) [NoFormParams]
+        NoMethVarDecl(
+        ) [NoMethVarDecl]
+        StmtList(
+          StmtList(
+            NoStmtList(
+            ) [NoStmtList]
+            PrintNoSizeStmt(
+              Expr(
+                TermSingle(
+                  Term(
+                    FactorSingle(
+                      FactChar(
+                       v
+                      ) [FactChar]
+                    ) [FactorSingle]
+                  ) [Term]
+                ) [TermSingle]
+              ) [Expr]
+            ) [PrintNoSizeStmt]
+          ) [StmtList]
+          ReturnValStmt(
+            Expr(
+              TermSingle(
+                Term(
+                  FactorSingle(
+                    FactBool(
+                     false
+                    ) [FactBool]
+                  ) [FactorSingle]
+                ) [Term]
+              ) [TermSingle]
+            ) [Expr]
+          ) [ReturnValStmt]
+        ) [StmtList]
+      ) [MethodDeclPart]
+    ) [MethDeclarations]
+    MethodDeclPart(
+      MethDeclTypeNameVoid(
+       main
+      ) [MethDeclTypeNameVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethVarDecl(
+      ) [NoMethVarDecl]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  StmtList(
+                    StmtList(
+                      StmtList(
+                        StmtList(
+                          StmtList(
+                            StmtList(
+                              StmtList(
+                                StmtList(
+                                  StmtList(
+                                    StmtList(
+                                      StmtList(
+                                        StmtList(
+                                          StmtList(
+                                            StmtList(
+                                              StmtList(
+                                                StmtList(
+                                                  StmtList(
+                                                    StmtList(
+                                                      StmtList(
+                                                        StmtList(
+                                                          StmtList(
+                                                            StmtList(
+                                                              StmtList(
+                                                                StmtList(
+                                                                  StmtList(
+                                                                    StmtList(
+                                                                      StmtList(
+                                                                        NoStmtList(
+                                                                        ) [NoStmtList]
+                                                                        DesignatorStmt(
+                                                                          DesignatorOpStmt(
+                                                                            DesignatorIdentSingle(
+                                                                              DesignatorSimpleIdent(
+                                                                               niz2
+                                                                              ) [DesignatorSimpleIdent]
+                                                                            ) [DesignatorIdentSingle]
+                                                                            DesignatorAssign(
+                                                                              AssignOp(
+                                                                              ) [AssignOp]
+                                                                              Expr(
+                                                                                TermSingle(
+                                                                                  Term(
+                                                                                    FactorSingle(
+                                                                                      FactNum(
+                                                                                       0
+                                                                                      ) [FactNum]
+                                                                                    ) [FactorSingle]
+                                                                                  ) [Term]
+                                                                                ) [TermSingle]
+                                                                              ) [Expr]
+                                                                            ) [DesignatorAssign]
+                                                                          ) [DesignatorOpStmt]
+                                                                        ) [DesignatorStmt]
+                                                                      ) [StmtList]
+                                                                      ForStmt(
+                                                                        ForBegin(
+                                                                        ) [ForBegin]
+                                                                        DesignatorStatementListPre(
+                                                                          DesignatorStmtSingle(
+                                                                            DesignatorSingle(
+                                                                              DesignatorOpStmt(
+                                                                                DesignatorIdentSingle(
+                                                                                  DesignatorSimpleIdent(
+                                                                                   i
+                                                                                  ) [DesignatorSimpleIdent]
+                                                                                ) [DesignatorIdentSingle]
+                                                                                DesignatorAssign(
+                                                                                  AssignOp(
+                                                                                  ) [AssignOp]
+                                                                                  Expr(
+                                                                                    TermSingle(
+                                                                                      Term(
+                                                                                        FactorSingle(
+                                                                                          FactNum(
+                                                                                           0
+                                                                                          ) [FactNum]
+                                                                                        ) [FactorSingle]
+                                                                                      ) [Term]
+                                                                                    ) [TermSingle]
+                                                                                  ) [Expr]
+                                                                                ) [DesignatorAssign]
+                                                                              ) [DesignatorOpStmt]
+                                                                            ) [DesignatorSingle]
+                                                                          ) [DesignatorStmtSingle]
+                                                                        ) [DesignatorStatementListPre]
+                                                                        ConditionFactFor(
+                                                                          Conditions(
+                                                                            CondTermSingle(
+                                                                              CondTerm(
+                                                                                CondFactSingle(
+                                                                                  CondFactor(
+                                                                                    ExprRelopMulti(
+                                                                                      Expr(
+                                                                                        TermSingle(
+                                                                                          Term(
+                                                                                            FactorSingle(
+                                                                                              FactDesg(
+                                                                                                DesignatorIdentSingle(
+                                                                                                  DesignatorSimpleIdent(
+                                                                                                   i
+                                                                                                  ) [DesignatorSimpleIdent]
+                                                                                                ) [DesignatorIdentSingle]
+                                                                                              ) [FactDesg]
+                                                                                            ) [FactorSingle]
+                                                                                          ) [Term]
+                                                                                        ) [TermSingle]
+                                                                                      ) [Expr]
+                                                                                      Less(
+                                                                                      ) [Less]
+                                                                                      Expr(
+                                                                                        TermSingle(
+                                                                                          Term(
+                                                                                            FactorSingle(
+                                                                                              FactNum(
+                                                                                               3
+                                                                                              ) [FactNum]
+                                                                                            ) [FactorSingle]
+                                                                                          ) [Term]
+                                                                                        ) [TermSingle]
+                                                                                      ) [Expr]
+                                                                                    ) [ExprRelopMulti]
+                                                                                  ) [CondFactor]
+                                                                                ) [CondFactSingle]
+                                                                              ) [CondTerm]
+                                                                            ) [CondTermSingle]
+                                                                          ) [Conditions]
+                                                                        ) [ConditionFactFor]
+                                                                        DesignatorStatementListPost(
+                                                                          DesignatorStmtSingle(
+                                                                            DesignatorSingle(
+                                                                              DesignatorOpStmt(
+                                                                                DesignatorIdentSingle(
+                                                                                  DesignatorSimpleIdent(
+                                                                                   i
+                                                                                  ) [DesignatorSimpleIdent]
+                                                                                ) [DesignatorIdentSingle]
+                                                                                DesignatorInc(
+                                                                                ) [DesignatorInc]
+                                                                              ) [DesignatorOpStmt]
+                                                                            ) [DesignatorSingle]
+                                                                          ) [DesignatorStmtSingle]
+                                                                        ) [DesignatorStatementListPost]
+                                                                        DesignatorStmt(
+                                                                          DesignatorOpStmt(
+                                                                            DesignatorIdentSingle(
+                                                                              DesignatorSimpleIdent(
+                                                                               niz2
+                                                                              ) [DesignatorSimpleIdent]
+                                                                            ) [DesignatorIdentSingle]
+                                                                            DesignatorAssign(
+                                                                              AssignOp(
+                                                                              ) [AssignOp]
+                                                                              Expr(
+                                                                                TermMulti(
+                                                                                  TermSingle(
+                                                                                    Term(
+                                                                                      FactorSingle(
+                                                                                        FactDesg(
+                                                                                          DesignatorIdentSingle(
+                                                                                            DesignatorSimpleIdent(
+                                                                                             niz2
+                                                                                            ) [DesignatorSimpleIdent]
+                                                                                          ) [DesignatorIdentSingle]
+                                                                                        ) [FactDesg]
+                                                                                      ) [FactorSingle]
+                                                                                    ) [Term]
+                                                                                  ) [TermSingle]
+                                                                                  Plus(
+                                                                                  ) [Plus]
+                                                                                  Term(
+                                                                                    FactorMulti(
+                                                                                      FactorSingle(
+                                                                                        FactDesg(
+                                                                                          DesignatorArray(
+                                                                                            DesignatorSimpleIdent(
+                                                                                             niz
+                                                                                            ) [DesignatorSimpleIdent]
+                                                                                            Expr(
+                                                                                              TermSingle(
+                                                                                                Term(
+                                                                                                  FactorSingle(
+                                                                                                    FactDesg(
+                                                                                                      DesignatorIdentSingle(
+                                                                                                        DesignatorSimpleIdent(
+                                                                                                         i
+                                                                                                        ) [DesignatorSimpleIdent]
+                                                                                                      ) [DesignatorIdentSingle]
+                                                                                                    ) [FactDesg]
+                                                                                                  ) [FactorSingle]
+                                                                                                ) [Term]
+                                                                                              ) [TermSingle]
+                                                                                            ) [Expr]
+                                                                                          ) [DesignatorArray]
+                                                                                        ) [FactDesg]
+                                                                                      ) [FactorSingle]
+                                                                                      Mul(
+                                                                                      ) [Mul]
+                                                                                      FactDesg(
+                                                                                        DesignatorArray(
+                                                                                          DesignatorSimpleIdent(
+                                                                                           niz
+                                                                                          ) [DesignatorSimpleIdent]
+                                                                                          Expr(
+                                                                                            TermSingle(
+                                                                                              Term(
+                                                                                                FactorSingle(
+                                                                                                  FactDesg(
+                                                                                                    DesignatorIdentSingle(
+                                                                                                      DesignatorSimpleIdent(
+                                                                                                       i
+                                                                                                      ) [DesignatorSimpleIdent]
+                                                                                                    ) [DesignatorIdentSingle]
+                                                                                                  ) [FactDesg]
+                                                                                                ) [FactorSingle]
+                                                                                              ) [Term]
+                                                                                            ) [TermSingle]
+                                                                                          ) [Expr]
+                                                                                        ) [DesignatorArray]
+                                                                                      ) [FactDesg]
+                                                                                    ) [FactorMulti]
+                                                                                  ) [Term]
+                                                                                ) [TermMulti]
+                                                                              ) [Expr]
+                                                                            ) [DesignatorAssign]
+                                                                          ) [DesignatorOpStmt]
+                                                                        ) [DesignatorStmt]
+                                                                      ) [ForStmt]
+                                                                    ) [StmtList]
+                                                                    PrintNoSizeStmt(
+                                                                      Expr(
+                                                                        TermSingle(
+                                                                          Term(
+                                                                            FactorSingle(
+                                                                              FactDesg(
+                                                                                DesignatorIdentSingle(
+                                                                                  DesignatorSimpleIdent(
+                                                                                   niz2
+                                                                                  ) [DesignatorSimpleIdent]
+                                                                                ) [DesignatorIdentSingle]
+                                                                              ) [FactDesg]
+                                                                            ) [FactorSingle]
+                                                                          ) [Term]
+                                                                        ) [TermSingle]
+                                                                      ) [Expr]
+                                                                    ) [PrintNoSizeStmt]
+                                                                  ) [StmtList]
+                                                                  DesignatorStmt(
+                                                                    DesignatorOpStmt(
+                                                                      DesignatorIdentSingle(
+                                                                        DesignatorNamespaceIdent(
+                                                                         Unpacking
+                                                                         niz
+                                                                        ) [DesignatorNamespaceIdent]
+                                                                      ) [DesignatorIdentSingle]
+                                                                      DesignatorAssign(
+                                                                        AssignOp(
+                                                                        ) [AssignOp]
+                                                                        Expr(
+                                                                          TermSingle(
+                                                                            Term(
+                                                                              FactorSingle(
+                                                                                FactNewArray(
+                                                                                  Type(
+                                                                                   int
+                                                                                  ) [Type]
+                                                                                  Expr(
+                                                                                    TermSingle(
+                                                                                      Term(
+                                                                                        FactorSingle(
+                                                                                          FactNum(
+                                                                                           4
+                                                                                          ) [FactNum]
+                                                                                        ) [FactorSingle]
+                                                                                      ) [Term]
+                                                                                    ) [TermSingle]
+                                                                                  ) [Expr]
+                                                                                ) [FactNewArray]
+                                                                              ) [FactorSingle]
+                                                                            ) [Term]
+                                                                          ) [TermSingle]
+                                                                        ) [Expr]
+                                                                      ) [DesignatorAssign]
+                                                                    ) [DesignatorOpStmt]
+                                                                  ) [DesignatorStmt]
+                                                                ) [StmtList]
+                                                                DesignatorStmt(
+                                                                  DesignatorOpStmt(
+                                                                    DesignatorArray(
+                                                                      DesignatorNamespaceIdent(
+                                                                       Unpacking
+                                                                       niz
+                                                                      ) [DesignatorNamespaceIdent]
+                                                                      Expr(
+                                                                        TermSingle(
+                                                                          Term(
+                                                                            FactorSingle(
+                                                                              FactNum(
+                                                                               0
+                                                                              ) [FactNum]
+                                                                            ) [FactorSingle]
+                                                                          ) [Term]
+                                                                        ) [TermSingle]
+                                                                      ) [Expr]
+                                                                    ) [DesignatorArray]
+                                                                    DesignatorAssign(
+                                                                      AssignOp(
+                                                                      ) [AssignOp]
+                                                                      Expr(
+                                                                        TermSingle(
+                                                                          Term(
+                                                                            FactorSingle(
+                                                                              FactNum(
+                                                                               1
+                                                                              ) [FactNum]
+                                                                            ) [FactorSingle]
+                                                                          ) [Term]
+                                                                        ) [TermSingle]
+                                                                      ) [Expr]
+                                                                    ) [DesignatorAssign]
+                                                                  ) [DesignatorOpStmt]
+                                                                ) [DesignatorStmt]
+                                                              ) [StmtList]
+                                                              DesignatorStmt(
+                                                                DesignatorOpStmt(
+                                                                  DesignatorArray(
+                                                                    DesignatorNamespaceIdent(
+                                                                     Unpacking
+                                                                     niz
+                                                                    ) [DesignatorNamespaceIdent]
+                                                                    Expr(
+                                                                      TermSingle(
+                                                                        Term(
+                                                                          FactorSingle(
+                                                                            FactNum(
+                                                                             1
+                                                                            ) [FactNum]
+                                                                          ) [FactorSingle]
+                                                                        ) [Term]
+                                                                      ) [TermSingle]
+                                                                    ) [Expr]
+                                                                  ) [DesignatorArray]
+                                                                  DesignatorAssign(
+                                                                    AssignOp(
+                                                                    ) [AssignOp]
+                                                                    Expr(
+                                                                      TermSingle(
+                                                                        Term(
+                                                                          FactorSingle(
+                                                                            FactNum(
+                                                                             2
+                                                                            ) [FactNum]
+                                                                          ) [FactorSingle]
+                                                                        ) [Term]
+                                                                      ) [TermSingle]
+                                                                    ) [Expr]
+                                                                  ) [DesignatorAssign]
+                                                                ) [DesignatorOpStmt]
+                                                              ) [DesignatorStmt]
+                                                            ) [StmtList]
+                                                            DesignatorStmt(
+                                                              DesignatorOpStmt(
+                                                                DesignatorArray(
+                                                                  DesignatorNamespaceIdent(
+                                                                   Unpacking
+                                                                   niz
+                                                                  ) [DesignatorNamespaceIdent]
+                                                                  Expr(
+                                                                    TermSingle(
+                                                                      Term(
+                                                                        FactorSingle(
+                                                                          FactNum(
+                                                                           2
+                                                                          ) [FactNum]
+                                                                        ) [FactorSingle]
+                                                                      ) [Term]
+                                                                    ) [TermSingle]
+                                                                  ) [Expr]
+                                                                ) [DesignatorArray]
+                                                                DesignatorAssign(
+                                                                  AssignOp(
+                                                                  ) [AssignOp]
+                                                                  Expr(
+                                                                    TermSingle(
+                                                                      Term(
+                                                                        FactorSingle(
+                                                                          FactNum(
+                                                                           6
+                                                                          ) [FactNum]
+                                                                        ) [FactorSingle]
+                                                                      ) [Term]
+                                                                    ) [TermSingle]
+                                                                  ) [Expr]
+                                                                ) [DesignatorAssign]
+                                                              ) [DesignatorOpStmt]
+                                                            ) [DesignatorStmt]
+                                                          ) [StmtList]
+                                                          DesignatorStmt(
+                                                            DesignatorOpStmt(
+                                                              DesignatorArray(
+                                                                DesignatorNamespaceIdent(
+                                                                 Unpacking
+                                                                 niz
+                                                                ) [DesignatorNamespaceIdent]
+                                                                Expr(
+                                                                  TermSingle(
+                                                                    Term(
+                                                                      FactorSingle(
+                                                                        FactNum(
+                                                                         3
+                                                                        ) [FactNum]
+                                                                      ) [FactorSingle]
+                                                                    ) [Term]
+                                                                  ) [TermSingle]
+                                                                ) [Expr]
+                                                              ) [DesignatorArray]
+                                                              DesignatorAssign(
+                                                                AssignOp(
+                                                                ) [AssignOp]
+                                                                Expr(
+                                                                  TermSingle(
+                                                                    Term(
+                                                                      FactorSingle(
+                                                                        FactNum(
+                                                                         7
+                                                                        ) [FactNum]
+                                                                      ) [FactorSingle]
+                                                                    ) [Term]
+                                                                  ) [TermSingle]
+                                                                ) [Expr]
+                                                              ) [DesignatorAssign]
+                                                            ) [DesignatorOpStmt]
+                                                          ) [DesignatorStmt]
+                                                        ) [StmtList]
+                                                        PrintNoSizeStmt(
+                                                          Expr(
+                                                            TermSingle(
+                                                              Term(
+                                                                FactorSingle(
+                                                                  FactDesg(
+                                                                    DesignatorIdentSingle(
+                                                                      DesignatorSimpleIdent(
+                                                                       eol
+                                                                      ) [DesignatorSimpleIdent]
+                                                                    ) [DesignatorIdentSingle]
+                                                                  ) [FactDesg]
+                                                                ) [FactorSingle]
+                                                              ) [Term]
+                                                            ) [TermSingle]
+                                                          ) [Expr]
+                                                        ) [PrintNoSizeStmt]
+                                                      ) [StmtList]
+                                                      DesignatorStmt(
+                                                        DesignatorOpStmt(
+                                                          DesignatorIdentSingle(
+                                                            DesignatorNamespaceIdent(
+                                                             Unpacking
+                                                             niz2
+                                                            ) [DesignatorNamespaceIdent]
+                                                          ) [DesignatorIdentSingle]
+                                                          DesignatorAssign(
+                                                            AssignOp(
+                                                            ) [AssignOp]
+                                                            Expr(
+                                                              TermSingle(
+                                                                Term(
+                                                                  FactorSingle(
+                                                                    FactNewArray(
+                                                                      Type(
+                                                                       int
+                                                                      ) [Type]
+                                                                      Expr(
+                                                                        TermSingle(
+                                                                          Term(
+                                                                            FactorSingle(
+                                                                              FactNum(
+                                                                               1
+                                                                              ) [FactNum]
+                                                                            ) [FactorSingle]
+                                                                          ) [Term]
+                                                                        ) [TermSingle]
+                                                                      ) [Expr]
+                                                                    ) [FactNewArray]
+                                                                  ) [FactorSingle]
+                                                                ) [Term]
+                                                              ) [TermSingle]
+                                                            ) [Expr]
+                                                          ) [DesignatorAssign]
+                                                        ) [DesignatorOpStmt]
+                                                      ) [DesignatorStmt]
+                                                    ) [StmtList]
+                                                    DesignatorStmt(
+                                                      DesignatorArrayStmt(
+                                                        DesgList(
+                                                          DesgList(
+                                                            DesgSingle(
+                                                              Desg(
+                                                                DesignatorIdentSingle(
+                                                                  DesignatorNamespaceIdent(
+                                                                   Unpacking
+                                                                   a
+                                                                  ) [DesignatorNamespaceIdent]
+                                                                ) [DesignatorIdentSingle]
+                                                              ) [Desg]
+                                                            ) [DesgSingle]
+                                                            Desg(
+                                                              DesignatorIdentSingle(
+                                                                DesignatorNamespaceIdent(
+                                                                 Unpacking
+                                                                 b
+                                                                ) [DesignatorNamespaceIdent]
+                                                              ) [DesignatorIdentSingle]
+                                                            ) [Desg]
+                                                          ) [DesgList]
+                                                          NoDesg(
+                                                          ) [NoDesg]
+                                                        ) [DesgList]
+                                                        DesignatorIdentSingle(
+                                                          DesignatorNamespaceIdent(
+                                                           Unpacking
+                                                           niz2
+                                                          ) [DesignatorNamespaceIdent]
+                                                        ) [DesignatorIdentSingle]
+                                                        AssignOp(
+                                                        ) [AssignOp]
+                                                        DesignatorIdentSingle(
+                                                          DesignatorNamespaceIdent(
+                                                           Unpacking
+                                                           niz
+                                                          ) [DesignatorNamespaceIdent]
+                                                        ) [DesignatorIdentSingle]
+                                                      ) [DesignatorArrayStmt]
+                                                    ) [DesignatorStmt]
+                                                  ) [StmtList]
+                                                  PrintNoSizeStmt(
+                                                    Expr(
+                                                      TermSingle(
+                                                        Term(
+                                                          FactorSingle(
+                                                            FactDesg(
+                                                              DesignatorIdentSingle(
+                                                                DesignatorNamespaceIdent(
+                                                                 Unpacking
+                                                                 a
+                                                                ) [DesignatorNamespaceIdent]
+                                                              ) [DesignatorIdentSingle]
+                                                            ) [FactDesg]
+                                                          ) [FactorSingle]
+                                                        ) [Term]
+                                                      ) [TermSingle]
+                                                    ) [Expr]
+                                                  ) [PrintNoSizeStmt]
+                                                ) [StmtList]
+                                                PrintNoSizeStmt(
+                                                  Expr(
+                                                    TermSingle(
+                                                      Term(
+                                                        FactorSingle(
+                                                          FactDesg(
+                                                            DesignatorIdentSingle(
+                                                              DesignatorNamespaceIdent(
+                                                               Unpacking
+                                                               b
+                                                              ) [DesignatorNamespaceIdent]
+                                                            ) [DesignatorIdentSingle]
+                                                          ) [FactDesg]
+                                                        ) [FactorSingle]
+                                                      ) [Term]
+                                                    ) [TermSingle]
+                                                  ) [Expr]
+                                                ) [PrintNoSizeStmt]
+                                              ) [StmtList]
+                                              PrintNoSizeStmt(
+                                                Expr(
+                                                  TermSingle(
+                                                    Term(
+                                                      FactorSingle(
+                                                        FactDesg(
+                                                          DesignatorArray(
+                                                            DesignatorNamespaceIdent(
+                                                             Unpacking
+                                                             niz2
+                                                            ) [DesignatorNamespaceIdent]
+                                                            Expr(
+                                                              TermSingle(
+                                                                Term(
+                                                                  FactorSingle(
+                                                                    FactNum(
+                                                                     0
+                                                                    ) [FactNum]
+                                                                  ) [FactorSingle]
+                                                                ) [Term]
+                                                              ) [TermSingle]
+                                                            ) [Expr]
+                                                          ) [DesignatorArray]
+                                                        ) [FactDesg]
+                                                      ) [FactorSingle]
+                                                    ) [Term]
+                                                  ) [TermSingle]
+                                                ) [Expr]
+                                              ) [PrintNoSizeStmt]
+                                            ) [StmtList]
+                                            PrintNoSizeStmt(
+                                              Expr(
+                                                TermSingle(
+                                                  Term(
+                                                    FactorSingle(
+                                                      FactDesg(
+                                                        DesignatorIdentSingle(
+                                                          DesignatorSimpleIdent(
+                                                           eol
+                                                          ) [DesignatorSimpleIdent]
+                                                        ) [DesignatorIdentSingle]
+                                                      ) [FactDesg]
+                                                    ) [FactorSingle]
+                                                  ) [Term]
+                                                ) [TermSingle]
+                                              ) [Expr]
+                                            ) [PrintNoSizeStmt]
+                                          ) [StmtList]
+                                          DesignatorStmt(
+                                            DesignatorOpStmt(
+                                              DesignatorIdentSingle(
+                                                DesignatorNamespaceIdent(
+                                                 Unpacking
+                                                 niz2
+                                                ) [DesignatorNamespaceIdent]
+                                              ) [DesignatorIdentSingle]
+                                              DesignatorAssign(
+                                                AssignOp(
+                                                ) [AssignOp]
+                                                Expr(
+                                                  TermSingle(
+                                                    Term(
+                                                      FactorSingle(
+                                                        FactNewArray(
+                                                          Type(
+                                                           int
+                                                          ) [Type]
+                                                          Expr(
+                                                            TermSingle(
+                                                              Term(
+                                                                FactorSingle(
+                                                                  FactNum(
+                                                                   1
+                                                                  ) [FactNum]
+                                                                ) [FactorSingle]
+                                                              ) [Term]
+                                                            ) [TermSingle]
+                                                          ) [Expr]
+                                                        ) [FactNewArray]
+                                                      ) [FactorSingle]
+                                                    ) [Term]
+                                                  ) [TermSingle]
+                                                ) [Expr]
+                                              ) [DesignatorAssign]
+                                            ) [DesignatorOpStmt]
+                                          ) [DesignatorStmt]
+                                        ) [StmtList]
+                                        DesignatorStmt(
+                                          DesignatorArrayStmt(
+                                            DesgList(
+                                              DesgList(
+                                                DesgSingle(
+                                                  NoDesg(
+                                                  ) [NoDesg]
+                                                ) [DesgSingle]
+                                                Desg(
+                                                  DesignatorIdentSingle(
+                                                    DesignatorNamespaceIdent(
+                                                     Unpacking
+                                                     a
+                                                    ) [DesignatorNamespaceIdent]
+                                                  ) [DesignatorIdentSingle]
+                                                ) [Desg]
+                                              ) [DesgList]
+                                              NoDesg(
+                                              ) [NoDesg]
+                                            ) [DesgList]
+                                            DesignatorIdentSingle(
+                                              DesignatorNamespaceIdent(
+                                               Unpacking
+                                               niz2
+                                              ) [DesignatorNamespaceIdent]
+                                            ) [DesignatorIdentSingle]
+                                            AssignOp(
+                                            ) [AssignOp]
+                                            DesignatorIdentSingle(
+                                              DesignatorSimpleIdent(
+                                               niz
+                                              ) [DesignatorSimpleIdent]
+                                            ) [DesignatorIdentSingle]
+                                          ) [DesignatorArrayStmt]
+                                        ) [DesignatorStmt]
+                                      ) [StmtList]
+                                      PrintNoSizeStmt(
+                                        Expr(
+                                          TermSingle(
+                                            Term(
+                                              FactorSingle(
+                                                FactDesg(
+                                                  DesignatorIdentSingle(
+                                                    DesignatorNamespaceIdent(
+                                                     Unpacking
+                                                     a
+                                                    ) [DesignatorNamespaceIdent]
+                                                  ) [DesignatorIdentSingle]
+                                                ) [FactDesg]
+                                              ) [FactorSingle]
+                                            ) [Term]
+                                          ) [TermSingle]
+                                        ) [Expr]
+                                      ) [PrintNoSizeStmt]
+                                    ) [StmtList]
+                                    PrintNoSizeStmt(
+                                      Expr(
+                                        TermSingle(
+                                          Term(
+                                            FactorSingle(
+                                              FactDesg(
+                                                DesignatorArray(
+                                                  DesignatorNamespaceIdent(
+                                                   Unpacking
+                                                   niz2
+                                                  ) [DesignatorNamespaceIdent]
+                                                  Expr(
+                                                    TermSingle(
+                                                      Term(
+                                                        FactorSingle(
+                                                          FactNum(
+                                                           0
+                                                          ) [FactNum]
+                                                        ) [FactorSingle]
+                                                      ) [Term]
+                                                    ) [TermSingle]
+                                                  ) [Expr]
+                                                ) [DesignatorArray]
+                                              ) [FactDesg]
+                                            ) [FactorSingle]
+                                          ) [Term]
+                                        ) [TermSingle]
+                                      ) [Expr]
+                                    ) [PrintNoSizeStmt]
+                                  ) [StmtList]
+                                  PrintNoSizeStmt(
+                                    Expr(
+                                      TermSingle(
+                                        Term(
+                                          FactorSingle(
+                                            FactDesg(
+                                              DesignatorIdentSingle(
+                                                DesignatorSimpleIdent(
+                                                 eol
+                                                ) [DesignatorSimpleIdent]
+                                              ) [DesignatorIdentSingle]
+                                            ) [FactDesg]
+                                          ) [FactorSingle]
+                                        ) [Term]
+                                      ) [TermSingle]
+                                    ) [Expr]
+                                  ) [PrintNoSizeStmt]
+                                ) [StmtList]
+                                DesignatorStmt(
+                                  DesignatorOpStmt(
+                                    DesignatorIdentSingle(
+                                      DesignatorNamespaceIdent(
+                                       Unpacking
+                                       niz2
+                                      ) [DesignatorNamespaceIdent]
+                                    ) [DesignatorIdentSingle]
+                                    DesignatorAssign(
+                                      AssignOp(
+                                      ) [AssignOp]
+                                      Expr(
+                                        TermSingle(
+                                          Term(
+                                            FactorSingle(
+                                              FactNewArray(
+                                                Type(
+                                                 int
+                                                ) [Type]
+                                                Expr(
+                                                  TermSingle(
+                                                    Term(
+                                                      FactorSingle(
+                                                        FactNum(
+                                                         2
+                                                        ) [FactNum]
+                                                      ) [FactorSingle]
+                                                    ) [Term]
+                                                  ) [TermSingle]
+                                                ) [Expr]
+                                              ) [FactNewArray]
+                                            ) [FactorSingle]
+                                          ) [Term]
+                                        ) [TermSingle]
+                                      ) [Expr]
+                                    ) [DesignatorAssign]
+                                  ) [DesignatorOpStmt]
+                                ) [DesignatorStmt]
+                              ) [StmtList]
+                              DesignatorStmt(
+                                DesignatorOpStmt(
+                                  DesignatorIdentSingle(
+                                    DesignatorNamespaceIdent(
+                                     Unpacking
+                                     niz3
+                                    ) [DesignatorNamespaceIdent]
+                                  ) [DesignatorIdentSingle]
+                                  DesignatorAssign(
+                                    AssignOp(
+                                    ) [AssignOp]
+                                    Expr(
+                                      TermSingle(
+                                        Term(
+                                          FactorSingle(
+                                            FactNewArray(
+                                              Type(
+                                               int
+                                              ) [Type]
+                                              Expr(
+                                                TermSingle(
+                                                  Term(
+                                                    FactorSingle(
+                                                      FactNum(
+                                                       1
+                                                      ) [FactNum]
+                                                    ) [FactorSingle]
+                                                  ) [Term]
+                                                ) [TermSingle]
+                                              ) [Expr]
+                                            ) [FactNewArray]
+                                          ) [FactorSingle]
+                                        ) [Term]
+                                      ) [TermSingle]
+                                    ) [Expr]
+                                  ) [DesignatorAssign]
+                                ) [DesignatorOpStmt]
+                              ) [DesignatorStmt]
+                            ) [StmtList]
+                            DesignatorStmt(
+                              DesignatorArrayStmt(
+                                DesgList(
+                                  DesgList(
+                                    DesgList(
+                                      DesgSingle(
+                                        Desg(
+                                          DesignatorArray(
+                                            DesignatorNamespaceIdent(
+                                             Unpacking
+                                             niz2
+                                            ) [DesignatorNamespaceIdent]
+                                            Expr(
+                                              TermSingle(
+                                                Term(
+                                                  FactorSingle(
+                                                    FactNum(
+                                                     0
+                                                    ) [FactNum]
+                                                  ) [FactorSingle]
+                                                ) [Term]
+                                              ) [TermSingle]
+                                            ) [Expr]
+                                          ) [DesignatorArray]
+                                        ) [Desg]
+                                      ) [DesgSingle]
+                                      NoDesg(
+                                      ) [NoDesg]
+                                    ) [DesgList]
+                                    Desg(
+                                      DesignatorArray(
+                                        DesignatorNamespaceIdent(
+                                         Unpacking
+                                         niz2
+                                        ) [DesignatorNamespaceIdent]
+                                        Expr(
+                                          TermSingle(
+                                            Term(
+                                              FactorSingle(
+                                                FactDesg(
+                                                  DesignatorArray(
+                                                    DesignatorNamespaceIdent(
+                                                     Unpacking
+                                                     niz
+                                                    ) [DesignatorNamespaceIdent]
+                                                    Expr(
+                                                      TermSingle(
+                                                        Term(
+                                                          FactorSingle(
+                                                            FactNum(
+                                                             0
+                                                            ) [FactNum]
+                                                          ) [FactorSingle]
+                                                        ) [Term]
+                                                      ) [TermSingle]
+                                                    ) [Expr]
+                                                  ) [DesignatorArray]
+                                                ) [FactDesg]
+                                              ) [FactorSingle]
+                                            ) [Term]
+                                          ) [TermSingle]
+                                        ) [Expr]
+                                      ) [DesignatorArray]
+                                    ) [Desg]
+                                  ) [DesgList]
+                                  NoDesg(
+                                  ) [NoDesg]
+                                ) [DesgList]
+                                DesignatorIdentSingle(
+                                  DesignatorNamespaceIdent(
+                                   Unpacking
+                                   niz3
+                                  ) [DesignatorNamespaceIdent]
+                                ) [DesignatorIdentSingle]
+                                AssignOp(
+                                ) [AssignOp]
+                                DesignatorIdentSingle(
+                                  DesignatorNamespaceIdent(
+                                   Unpacking
+                                   niz
+                                  ) [DesignatorNamespaceIdent]
+                                ) [DesignatorIdentSingle]
+                              ) [DesignatorArrayStmt]
+                            ) [DesignatorStmt]
+                          ) [StmtList]
+                          PrintNoSizeStmt(
+                            Expr(
+                              TermSingle(
+                                Term(
+                                  FactorSingle(
+                                    FactDesg(
+                                      DesignatorArray(
+                                        DesignatorNamespaceIdent(
+                                         Unpacking
+                                         niz2
+                                        ) [DesignatorNamespaceIdent]
+                                        Expr(
+                                          TermSingle(
+                                            Term(
+                                              FactorSingle(
+                                                FactNum(
+                                                 0
+                                                ) [FactNum]
+                                              ) [FactorSingle]
+                                            ) [Term]
+                                          ) [TermSingle]
+                                        ) [Expr]
+                                      ) [DesignatorArray]
+                                    ) [FactDesg]
+                                  ) [FactorSingle]
+                                ) [Term]
+                              ) [TermSingle]
+                            ) [Expr]
+                          ) [PrintNoSizeStmt]
+                        ) [StmtList]
+                        PrintNoSizeStmt(
+                          Expr(
+                            TermSingle(
+                              Term(
+                                FactorSingle(
+                                  FactDesg(
+                                    DesignatorArray(
+                                      DesignatorNamespaceIdent(
+                                       Unpacking
+                                       niz2
+                                      ) [DesignatorNamespaceIdent]
+                                      Expr(
+                                        TermSingle(
+                                          Term(
+                                            FactorSingle(
+                                              FactNum(
+                                               1
+                                              ) [FactNum]
+                                            ) [FactorSingle]
+                                          ) [Term]
+                                        ) [TermSingle]
+                                      ) [Expr]
+                                    ) [DesignatorArray]
+                                  ) [FactDesg]
+                                ) [FactorSingle]
+                              ) [Term]
+                            ) [TermSingle]
+                          ) [Expr]
+                        ) [PrintNoSizeStmt]
+                      ) [StmtList]
+                      PrintNoSizeStmt(
+                        Expr(
+                          TermSingle(
+                            Term(
+                              FactorSingle(
+                                FactDesg(
+                                  DesignatorArray(
+                                    DesignatorNamespaceIdent(
+                                     Unpacking
+                                     niz3
+                                    ) [DesignatorNamespaceIdent]
+                                    Expr(
+                                      TermSingle(
+                                        Term(
+                                          FactorSingle(
+                                            FactNum(
+                                             0
+                                            ) [FactNum]
+                                          ) [FactorSingle]
+                                        ) [Term]
+                                      ) [TermSingle]
+                                    ) [Expr]
+                                  ) [DesignatorArray]
+                                ) [FactDesg]
+                              ) [FactorSingle]
+                            ) [Term]
+                          ) [TermSingle]
+                        ) [Expr]
+                      ) [PrintNoSizeStmt]
+                    ) [StmtList]
+                    PrintNoSizeStmt(
+                      Expr(
+                        TermSingle(
+                          Term(
+                            FactorSingle(
+                              FactDesg(
+                                DesignatorIdentSingle(
+                                  DesignatorSimpleIdent(
+                                   eol
+                                  ) [DesignatorSimpleIdent]
+                                ) [DesignatorIdentSingle]
+                              ) [FactDesg]
+                            ) [FactorSingle]
+                          ) [Term]
+                        ) [TermSingle]
+                      ) [Expr]
+                    ) [PrintNoSizeStmt]
+                  ) [StmtList]
+                  DesignatorStmt(
+                    DesignatorOpStmt(
+                      DesignatorIdentSingle(
+                        DesignatorNamespaceIdent(
+                         Unpacking
+                         niz3
+                        ) [DesignatorNamespaceIdent]
+                      ) [DesignatorIdentSingle]
+                      DesignatorAssign(
+                        AssignOp(
+                        ) [AssignOp]
+                        Expr(
+                          TermSingle(
+                            Term(
+                              FactorSingle(
+                                FactNewArray(
+                                  Type(
+                                   int
+                                  ) [Type]
+                                  Expr(
+                                    TermSingle(
+                                      Term(
+                                        FactorSingle(
+                                          FactNum(
+                                           3
+                                          ) [FactNum]
+                                        ) [FactorSingle]
+                                      ) [Term]
+                                    ) [TermSingle]
+                                  ) [Expr]
+                                ) [FactNewArray]
+                              ) [FactorSingle]
+                            ) [Term]
+                          ) [TermSingle]
+                        ) [Expr]
+                      ) [DesignatorAssign]
+                    ) [DesignatorOpStmt]
+                  ) [DesignatorStmt]
+                ) [StmtList]
+                DesignatorStmt(
+                  DesignatorArrayStmt(
+                    DesgSingle(
+                      NoDesg(
+                      ) [NoDesg]
+                    ) [DesgSingle]
+                    DesignatorIdentSingle(
+                      DesignatorNamespaceIdent(
+                       Unpacking
+                       niz3
+                      ) [DesignatorNamespaceIdent]
+                    ) [DesignatorIdentSingle]
+                    AssignOp(
+                    ) [AssignOp]
+                    DesignatorIdentSingle(
+                      DesignatorSimpleIdent(
+                       niz
+                      ) [DesignatorSimpleIdent]
+                    ) [DesignatorIdentSingle]
+                  ) [DesignatorArrayStmt]
+                ) [DesignatorStmt]
+              ) [StmtList]
+              PrintNoSizeStmt(
+                Expr(
+                  TermSingle(
+                    Term(
+                      FactorSingle(
+                        FactDesg(
+                          DesignatorArray(
+                            DesignatorNamespaceIdent(
+                             Unpacking
+                             niz3
+                            ) [DesignatorNamespaceIdent]
+                            Expr(
+                              TermSingle(
+                                Term(
+                                  FactorSingle(
+                                    FactNum(
+                                     0
+                                    ) [FactNum]
+                                  ) [FactorSingle]
+                                ) [Term]
+                              ) [TermSingle]
+                            ) [Expr]
+                          ) [DesignatorArray]
+                        ) [FactDesg]
+                      ) [FactorSingle]
+                    ) [Term]
+                  ) [TermSingle]
+                ) [Expr]
+              ) [PrintNoSizeStmt]
+            ) [StmtList]
+            PrintNoSizeStmt(
+              Expr(
+                TermSingle(
+                  Term(
+                    FactorSingle(
+                      FactDesg(
+                        DesignatorArray(
+                          DesignatorNamespaceIdent(
+                           Unpacking
+                           niz3
+                          ) [DesignatorNamespaceIdent]
+                          Expr(
+                            TermSingle(
+                              Term(
+                                FactorSingle(
+                                  FactNum(
+                                   1
+                                  ) [FactNum]
+                                ) [FactorSingle]
+                              ) [Term]
+                            ) [TermSingle]
+                          ) [Expr]
+                        ) [DesignatorArray]
+                      ) [FactDesg]
+                    ) [FactorSingle]
+                  ) [Term]
+                ) [TermSingle]
+              ) [Expr]
+            ) [PrintNoSizeStmt]
+          ) [StmtList]
+          PrintNoSizeStmt(
+            Expr(
+              TermSingle(
+                Term(
+                  FactorSingle(
+                    FactDesg(
+                      DesignatorArray(
+                        DesignatorNamespaceIdent(
+                         Unpacking
+                         niz3
+                        ) [DesignatorNamespaceIdent]
+                        Expr(
+                          TermSingle(
+                            Term(
+                              FactorSingle(
+                                FactNum(
+                                 2
+                                ) [FactNum]
+                              ) [FactorSingle]
+                            ) [Term]
+                          ) [TermSingle]
+                        ) [Expr]
+                      ) [DesignatorArray]
+                    ) [FactDesg]
+                  ) [FactorSingle]
+                ) [Term]
+              ) [TermSingle]
+            ) [Expr]
+          ) [PrintNoSizeStmt]
+        ) [StmtList]
+        PrintNoSizeStmt(
+          Expr(
+            TermSingle(
+              Term(
+                FactorSingle(
+                  FactDesg(
+                    DesignatorIdentSingle(
+                      DesignatorSimpleIdent(
+                       eol
+                      ) [DesignatorSimpleIdent]
+                    ) [DesignatorIdentSingle]
+                  ) [FactDesg]
+                ) [FactorSingle]
+              ) [Term]
+            ) [TermSingle]
+          ) [Expr]
+        ) [PrintNoSizeStmt]
+      ) [StmtList]
+    ) [MethodDeclPart]
+  ) [MethDeclarations]
+) [Program]
+INFO  14:45:56,651 - ====================================
+INFO  14:45:56,653 - Obradjuje se funkcija sum na liniji 9
+INFO  14:45:56,653 - Obradjuje se funkcija inkrement na liniji 15
+INFO  14:45:56,654 - Deklaracija promenljive na liniji 16
+INFO  14:45:56,654 - Pronadjen poziv funkcije Addition::sum na liniji 19
+INFO  14:45:56,654 - Deklaracija promenljive na liniji 26
+INFO  14:45:56,654 - Deklaracija promenljive na liniji 27
+INFO  14:45:56,654 - Deklaracija promenljive na liniji 32
+INFO  14:45:56,654 - Deklaracija promenljive na liniji 33
+INFO  14:45:56,654 - Deklaracija promenljive na liniji 35
+INFO  14:45:56,654 - Deklaracija promenljive na liniji 37
+INFO  14:45:56,654 - Deklaracija promenljive na liniji 38
+INFO  14:45:56,654 - Obradjuje se funkcija verify na liniji 43
+INFO  14:45:56,654 - Obradjuje se funkcija main na liniji 48
+INFO  14:45:56,655 - Broj globalnih promenljivih = 12
+INFO  14:45:56,655 - Semanticka analiza uspesno izvrsena
+INFO  14:45:56,655 - Generating bytecode file: D:\Materijali\7. semestar\PP\Projekat\pp1_domaci\workspace\MJCompiler\test\program.obj
+INFO  14:45:56,658 - Parsiranje uspesno zavrseno!

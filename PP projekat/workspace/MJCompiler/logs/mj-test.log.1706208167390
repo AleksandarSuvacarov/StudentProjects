@@ -1,0 +1,71 @@
+INFO  19:42:39,111 - Compiling source file: D:\Materijali\7. semestar\PP\Projekat\pp1_domaci\workspace\MJCompiler\test\program.mj
+INFO  19:42:39,132 - #2 program
+INFO  19:42:39,132 - #46 MojProgram
+INFO  19:42:39,132 - #46 char
+INFO  19:42:39,133 - #46 x
+INFO  19:42:39,133 - #32 ;
+INFO  19:42:39,133 - #46 int
+INFO  19:42:39,134 - #46 x
+INFO  19:42:39,134 - #33 ,
+INFO  19:42:39,134 - #46 niz
+INFO  19:42:39,134 - #38 [
+INFO  19:42:39,134 - #39 ]
+INFO  19:42:39,134 - #32 ;
+INFO  19:42:39,134 - #40 {
+INFO  19:42:39,134 - #41 }
+INFO  19:42:39,137 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclarationsVar(
+        VarDecl(
+          TypeVar(
+            Type(
+              RegularTypeIdent(
+               char
+              ) [RegularTypeIdent]
+            ) [Type]
+          ) [TypeVar]
+          VarDeclarationSingle(
+            VarDeclIdent(
+             x
+            ) [VarDeclIdent]
+          ) [VarDeclarationSingle]
+        ) [VarDecl]
+      ) [DeclarationsVar]
+    ) [Declarations]
+    DeclarationsVar(
+      VarDecl(
+        TypeVar(
+          Type(
+            RegularTypeIdent(
+             int
+            ) [RegularTypeIdent]
+          ) [Type]
+        ) [TypeVar]
+        VarDeclarationList(
+          VarDeclarationSingle(
+            VarDeclIdent(
+             x
+            ) [VarDeclIdent]
+          ) [VarDeclarationSingle]
+          VarDeclArray(
+           niz
+          ) [VarDeclArray]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [DeclarationsVar]
+  ) [Declarations]
+  NoMethDeclarations(
+  ) [NoMethDeclarations]
+) [Program]
+INFO  19:42:39,137 - ====================================
+INFO  19:42:39,139 - Deklaracija promenljive na liniji 3
+INFO  19:42:39,139 - Deklaracija promenljive na liniji 4
+INFO  19:42:39,140 - Parsiranje uspesno izvrseno

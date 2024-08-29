@@ -1,0 +1,71 @@
+INFO  19:42:47,392 - Compiling source file: D:\Materijali\7. semestar\PP\Projekat\pp1_domaci\workspace\MJCompiler\test\program.mj
+INFO  19:42:47,414 - #2 program
+INFO  19:42:47,414 - #46 MojProgram
+INFO  19:42:47,414 - #46 bla
+INFO  19:42:47,415 - #46 x
+INFO  19:42:47,415 - #32 ;
+INFO  19:42:47,415 - #46 int
+INFO  19:42:47,416 - #46 x
+INFO  19:42:47,416 - #33 ,
+INFO  19:42:47,416 - #46 niz
+INFO  19:42:47,416 - #38 [
+INFO  19:42:47,416 - #39 ]
+INFO  19:42:47,416 - #32 ;
+INFO  19:42:47,416 - #40 {
+INFO  19:42:47,416 - #41 }
+INFO  19:42:47,419 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclarationsVar(
+        VarDecl(
+          TypeVar(
+            Type(
+              RegularTypeIdent(
+               bla
+              ) [RegularTypeIdent]
+            ) [Type]
+          ) [TypeVar]
+          VarDeclarationSingle(
+            VarDeclIdent(
+             x
+            ) [VarDeclIdent]
+          ) [VarDeclarationSingle]
+        ) [VarDecl]
+      ) [DeclarationsVar]
+    ) [Declarations]
+    DeclarationsVar(
+      VarDecl(
+        TypeVar(
+          Type(
+            RegularTypeIdent(
+             int
+            ) [RegularTypeIdent]
+          ) [Type]
+        ) [TypeVar]
+        VarDeclarationList(
+          VarDeclarationSingle(
+            VarDeclIdent(
+             x
+            ) [VarDeclIdent]
+          ) [VarDeclarationSingle]
+          VarDeclArray(
+           niz
+          ) [VarDeclArray]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [DeclarationsVar]
+  ) [Declarations]
+  NoMethDeclarations(
+  ) [NoMethDeclarations]
+) [Program]
+INFO  19:42:47,422 - ====================================
+ERROR 19:42:47,423 - Nije pronadjen tip bla u tabeli simbola na liniji3
+INFO  19:42:47,424 - Deklaracija promenljive na liniji 3
+INFO  19:42:47,424 - Deklaracija promenljive na liniji 4

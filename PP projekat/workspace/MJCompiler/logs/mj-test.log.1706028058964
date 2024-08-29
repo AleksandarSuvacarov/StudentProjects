@@ -1,0 +1,11 @@
+INFO  17:40:33,685 - Compiling source file: D:\Materijali\7. semestar\PP\Projekat\pp1_domaci\workspace\MJCompiler\test\program.mj
+INFO  17:40:33,690 - #2 program
+INFO  17:40:33,690 - #45 MJProgram
+INFO  17:40:33,690 - #40 {
+INFO  17:40:33,690 - #41 }
+INFO  17:40:33,690 - ProgramDerived1(
+  ProgNameDerived1(
+   MJProgram
+  ) [ProgNameDerived1]
+) [ProgramDerived1]
+INFO  17:40:33,690 - ==================================

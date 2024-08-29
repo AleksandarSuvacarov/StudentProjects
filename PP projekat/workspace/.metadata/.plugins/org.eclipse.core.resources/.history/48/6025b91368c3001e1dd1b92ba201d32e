@@ -1,0 +1,24 @@
+program mojProgram
+
+int i;
+char nizChar[];
+
+char c;
+
+{
+
+	void main(){
+	
+		nizChar = new char[5];
+		i = 0;
+		for(i = 0, c = 'a'; ; i++, c = chr(97 + i)){
+			
+			nizChar[i] = c;
+			print(nizChar[i]);
+			if(i == 4) break;
+		}
+	
+	
+	}
+
+}

@@ -1,0 +1,24 @@
+INFO  16:22:02,446 - Compiling source file: D:\Materijali\7. semestar\PP\Projekat\pp1_domaci\workspace\MJCompiler\test\program.mj
+INFO  16:22:02,448 - #2 program
+INFO  16:22:02,448 - #45 MJProgram
+INFO  16:22:02,448 - #45 int
+INFO  16:22:02,448 - #45 x
+INFO  16:22:02,449 - #32 ;
+INFO  16:22:02,449 - #45 bool
+INFO  16:22:02,449 - #45 ibool
+INFO  16:22:02,449 - #32 ;
+INFO  16:22:02,449 - #40 {
+INFO  16:22:02,449 - #11 void
+INFO  16:22:02,449 - #45 main
+INFO  16:22:02,449 - #36 (
+INFO  16:22:02,449 - #37 )
+INFO  16:22:02,449 - #40 {
+INFO  16:22:02,449 - #45 x
+INFO  16:22:02,449 - #30 ++
+INFO  16:22:02,449 - #32 ;
+INFO  16:22:02,449 - #45 ibool
+INFO  16:22:02,449 - #29 =
+INFO  16:22:02,449 - #43 true
+INFO  16:22:02,449 - #32 ;
+INFO  16:22:02,453 - #41 }
+INFO  16:22:02,453 - #41 }

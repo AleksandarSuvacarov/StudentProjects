@@ -1,0 +1,32 @@
+program MJProgram
+
+{
+	
+	void main(){
+	
+		if(i == 3 && verify())
+			if(4 && l != 0 || 1)
+				{x = 3 + 4;
+				}
+			else
+				x--;
+		else
+			if(2)
+				x++;
+			else ord(a(4), 4);
+		
+		addition::niz();
+		niz--;
+		niz = ((5 + 4) - 3) * (2 - 7) / 6;
+		
+		if(ibool)
+			if(i == 5) print(1);
+			else print(-1); 
+		
+		return a(3);
+		
+		b = new int[5];
+	}
+
+	
+}
