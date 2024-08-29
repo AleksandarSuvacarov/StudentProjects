@@ -1,0 +1,31 @@
+
+TransportPaketa - naziv baze
+
+Pre pokretnja zameniti mesta IdG i IdO u tabeli Opstina jer inace nece raditi!!!
+Isto ovo za IdP i IdK u AktuelnaVoznja
+
+ispravljene metode getDrive i driveNext package su u folderu student_2
+
+CourierRequestOperations - changeVehicle() - sta vraca kada menjamo tablicu, ali zaporavo prosledjujemo istu
+
+
+
+
+Onemogucavanje rekurzivne trigere
+--Omoguciti advance opcije
+EXEC sp_configure 'show advanced options', 1;
+RECONFIGURE;
+
+-- Prikažite trenutno stanje opcije 'nested triggers'
+EXEC sp_configure 'nested triggers';
+
+-- Onemogućite rekurzivne trigere
+EXEC sp_configure 'nested triggers', 0;
+RECONFIGURE;
+
+
+-- Postavljanje baze u SINGLE_USER režim
+ALTER DATABASE TransportPaketa SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+
+-- Brisanje baze podataka
+DROP DATABASE TransportPaketa;
