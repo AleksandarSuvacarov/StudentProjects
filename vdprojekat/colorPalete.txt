@@ -1,0 +1,9 @@
+#ff471a - crvena
+#fba651 - narandzasta
+#4d2600 - braon
+#00330d - zelena
+#ffc6b3 - roze
+#fff3e6 - bez, promena fef9f2
+
+
+https://www.w3schools.com/colors/colors_picker.asp sajt gde se kuca sifra da se vidi boja

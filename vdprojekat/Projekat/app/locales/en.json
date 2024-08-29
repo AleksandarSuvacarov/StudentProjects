@@ -1,0 +1,121 @@
+{
+    "zdravo": "Hello",
+    "pozdravljanje": "Welcome to my website!",
+
+
+    "Leonardo": "Leonardo",
+    "da Vinci": "da Vinci",
+    "opis_1": "The greates mind of Renaissance and inimitable inventor",
+    "Mikelandjelo": "Michelangelo",
+    "Buonaroti": "Buonarroti",
+    "opis_2": "The greates sculptor and artist of Renaissance",
+    "Vinsent": "Vincent",
+    "van Gog": "van Gogh",
+    "opis_3": "Eccentric artist - the master of Expressionism",
+    "Ogist": "Ogist",
+    "Roden": "Roden",
+    "opis_4": "Famous French sculptor of luxurious marble and bronze statues",
+    "Donatelo": "Donatello",
+    "Donatelo_prezime": "",
+    "opis_5": "Famous Italian sculptor from the Renaissance period",
+    "Marina": "Marina",
+    "Abramovic": "Abramovic",
+    "opis_6": "Renowned Serbian performance artist of international acclaim",
+    "Ludvig": "Ludwig",
+    "van Betoven": "van Beethoven",
+    "opis_7": "The greatest German composer and highly significant musical figure in the transitional period between Classicism and Romanticism",
+    "Sten": "Stan",
+    "Li": "Lee",
+    "opis_8": "The greatest American comic book writer, editor, publisher, producer, television host, actor, and former president of Marvel Comics",
+
+
+    "Mona Liza": "Mona Lisa",
+    "Tajna vecera": "The Last Supper",
+    "Zvezdana noc": "Starry Night",
+    "Mojsije": "Moses",
+    "Mislilac": "The Thinker",
+    "Gatamelata": "Gatamelata",
+    "Umetnik je prisutan": "The Artist is Present",
+    "Deveta simfonija": "Ninth Symphony",
+    "Spajdermen": "Spiderman",
+
+
+    "Slike": "Paintings",
+    "Skulpture": "Sculptures",
+    "Ostale umetnine": "Other artworks",
+    "poruka_komentar": "Message",
+    "Ostavite ponudu": "Leave an Offer",
+    "godina": "years",
+    "Objavi": "Publish",
+    "Umetnine": "Artworks",
+    "Pretrazi": "Search",
+    "Ukloni": "Remove",
+    "Galerija": "Gallery",
+    "Pregled dela": "Art Overview",
+
+
+    "Pocetna":"Home",
+    "Umetnici": "Artists",
+    "Moj nalog": "My account",
+    "O nama": "About us",
+    "ulogujse": "Log in",
+    "izlogujse": "Log out",
+
+
+    "Naziv_sort": "Name",
+    "Umetnik_sort": "Artist",
+    "Umetnik_i_naziv_sort": "Name and artist",
+    "Sortiraj": "Sort by",
+    "Pogledaj": "See more",
+
+    
+    "Autor_details": "Artist",
+    "Procenjena_vrednost_details": "Estimated Value",
+    "Procenjena_starost_details": "Estimated Age",
+
+
+    "Moje ponude": "My Offers",
+    "Alfa korisnik": "Alpha user",
+    "Sigma korisnik": "Sigma user",
+
+
+    "opis_galerija_levi_naslov" : "Get to know us",
+    "opis_galerija_levi_1": "Welcome to the Gallery Mystique website! Discover the greatest painters of the Renaissance and Humanism, and embark on a journey through the world of mysterious art. Gallery Mystique is your ticket to a magical world of art that captivates you with its depth and symbolism.",
+    "opis_galerija_levi_2": "Our gallery presents an extraordinary collection of masterpieces created during the Renaissance and Humanism, a period that marked a cultural revolution and a strong aspiration for human dignity and intellectual development. Through the exhibited paintings, every visitor has the opportunity to immerse themselves in the enchanting atmosphere of that time and connect with the great masters who shaped the world through their art.",
+    "opis_galerija_levi_3": "Our gallery offers a unique experience that intertwines aesthetics, history, and mystique. Each showcased artwork is carefully chosen to provide visitors with a deeper insight into the mysterious aspects of art. Lights, shadows, colors, and lines create a harmony that conquers all senses and invites introspection.",
+    "opis_galerija_levi_4": "In addition to the Renaissance and Humanism, Gallery Mystique also presents works by modern artists who continue to explore mystery and inner spirituality through their creations. This contemporary dimension gives the gallery freshness and vibrancy, blending the past and present into a unique experience for visitors.",
+    "opis_galerija_levi_5": "Follow us on our website to stay informed about the latest exhibitions, events, and workshops we organize. Our goal is to provide each visitor with the opportunity to discover their own inner mystical world and surrender to the enchantment of art that transcends the boundaries of time.",
+    "opis_galerija_levi_6": "Welcome to Gallery Mystique, where the past and present converge, and art comes to life in its most mystical form!",
+
+
+    "opis_galerija_desni_naslov": "Awards",
+    "opis_galerija_desni_1": "This website has not only become a source of inspiration and artistic enjoyment but has also received recognition for its excellence and innovation. The WebTonic Excellence Award, which celebrates exceptional creativity and technical brilliance, has proudly been awarded to Galerija Mistik. This website stands out for its ability to combine the aesthetics of the Renaissance with subtle digital elements, providing visitors with a unique experience. From carefully designed user interfaces to visual effects that bring the paintings to life, every detail on the Galerija Mistik website reflects a passion and dedication to art.",
+    "opis_galerija_desni_2": "The Cyber Star, an award given for the most innovative website concept, has also been bestowed upon Galerija Mistik. The website is conceived as a virtual gallery that excels in interactivity and the ability for visitors to explore and immerse themselves in the world of paintings. The distinctive way in which the artworks are presented on this website has captured the attention of the judging panel and rightfully earned Galerija Mistik this recognition.",
+    "opis_galerija_desni_3": "Furthermore, Gallery Mystique has also received the Interactive Magician Award, which recognizes exceptional interactive features on websites. The artists showcased on the website have the ability to breathe life into their paintings through interactive elements, allowing visitors to explore details, colors, and compositions in a unique way. This innovative interaction has been instrumental in winning this prestigious award.",
+    "opis_galerija_desni_4": "We are proud to highlight that Gallery Mystique and its artists have also received other significant awards such as the DigiGloria Certificate for outstanding website design, the CyberInnovation Trophy for pioneering approaches to digital art, the Virtuoso Web Recognition for exceptional technical performance, the TechnoHarmony Medal for the integration of technology and art, and the WebMaster Trophy for Excellence.",
+
+
+    "kontaktirajte_nas": "Contact us",
+    "kontakt_naziv": "Name",
+    "kontakt_adresa": "Address: Višegradska 26, Belgrade, Serbia",
+    "kontakt_telefon": "Phone: +123456789",
+    "kontakt_email": "E-mail: laza@lazarevic.com",
+    "kontakt_mapa": "Map",
+
+    "opis_pocetna": "The largest art gallery in Belgrade, offering a wealth of art in one place. Our gallery is home to a diverse collection of paintings, sculptures, and much more, which you can explore with just one click. Whether you are a lover of classical or modern art forms, we provide you with a unique opportunity to enjoy the diversity of artistic expression. With just a few steps, you can browse our gallery, choose your favorite pieces, and easily purchase them. With the fastest and easiest way of buying, we give you unlimited access to artworks that enrich both space and soul. Let our gallery be your safe haven for art, where you find inspiration, discover new talents, and become part of a wider artistic community.",
+    "cekanj_pocetna": "We are waiting for You!",
+    "nova_ponuda_naslov": "Latest Offers",
+    "nova_ponuda_korisnik": "User",
+    "nova_ponuda_um": "Artwork",
+    "nova_ponuda_vr": "Offered Value",
+
+
+    "Korisnicko ime": "Username",
+    "Lozinka": "Password",
+    "Prijavi se": "Login",
+
+    "Aktuelnosti": "News",
+    "nova_slika": "NEW: Recently, in our gallery, you can buy hand-written copies of the most significant compositions ever written. This unique offer allows you to own authentic reproductions of masterpieces of musical art. Whether you are a lover of classical music or a fan of contemporary compositions, our gallery offers a wide range of hand-written copies that will satisfy your most distinguished tastes. With these copies, you can bring the spirit of past centuries into your home and enjoy the splendor and beauty of music that has left an indelible mark in the history of art."
+    
+
+}

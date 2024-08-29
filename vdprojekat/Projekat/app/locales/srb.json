@@ -1,0 +1,120 @@
+{
+    "zdravo": "Zdravo",
+    "pozdravljanje": "Dobrodosli na vebsajt!",
+
+
+    "Leonardo": "Leonardo",
+    "da Vinci": "da Vinci",
+    "opis_1": "Najveci um renesanse i neponovljivi izumitelj",
+    "Mikelandjelo": "Mikelandjelo",
+    "Buonaroti": "Buonaroti",
+    "opis_2": "Najveci skulptor i slikar doba preporoda",
+    "Vinsent": "Vinsent",
+    "van Gog": "van Gog",
+    "opis_3": "Eksenctricni slikar - gospodar ekspresionizma",
+    "Ogist": "Ogist",
+    "Roden": "Roden",
+    "opis_4": "Poznati francuski skulport raskosnih mermernih i bronzanih statua",
+    "Donatelo": "Donatelo",
+    "Donatelo_prezime": "",
+    "opis_5": "Poznati italijanski vajar iz renesansnog perioda",
+    "Marina": "Marina",
+    "Abramovic": "Abramovic",
+    "opis_6": "Cuvena srpska umetnica performansa medjunarodnog ugleda",
+    "Ludvig": "Ludvig",
+    "van Betoven": "van Betoven",
+    "opis_7": "Najveci nemacki kompozitor i izuzetno znacajna muzicka figura u prelaznom periodu izmedju ere klasicizma i romantizma",
+    "Sten": "Sten",
+    "Li": "Li",
+    "opis_8": "Najveci americki strip scenarista, urednik, izdavac, producent, televizijski voditelj, glumac i bivsi predsednik izdavacke kuce Marvel komiks",
+
+
+    "Mona Liza": "Mona Liza",
+    "Tajna vecera": "Tajna vecera",
+    "Zvezdana noc": "Zvezdana noc",
+    "Mojsije": "Mojsije",
+    "Mislilac": "Mislilac",
+    "Gatamelata": "Gatamelata",
+    "Umetnik je prisutan": "Umetnik je prisutan",
+    "Deveta simfonija": "Deveta simfonija",
+    "Spajdermen": "Spajdermen",
+
+    
+    "Slike": "Slike",
+    "Skulpture": "Skulpture",
+    "Ostale umetnine": "Ostale umetnine",
+    "poruka_komentar": "Poruka",
+    "Ostavite ponudu": "Ostavite ponudu",
+    "godina": "godina",
+    "Objavi": "Objavi",
+    "Umetnine": "Umetnine",
+    "Pretrazi": "Pretrazi",
+    "Ukloni": "Ukloni",
+    "Galerija": "Galerija",
+    "Pregled dela": "Pregled dela",
+
+
+    "Pocetna":"Pocetna",
+    "Umetnici": "Umetnici",
+    "Moj nalog": "Moj nalog",
+    "O nama": "O nama",
+    "ulogujse": "Uloguj se",
+    "izlogujse": "Izloguj se",
+
+
+    "Naziv_sort": "Naziv",
+    "Umetnik_sort": "Umetnik",
+    "Umetnik_i_naziv_sort": "Umetnik i naziv",
+    "Sortiraj": "Sortiraj",
+    "Pogledaj": "Pogledaj",
+
+
+    "Autor_details": "Autor",
+    "Procenjena_vrednost_details": "Procenjena vrednost",
+    "Procenjena_starost_details": "Procenjena starost",
+
+
+    "Moje ponude": "Moje ponude",
+    "Alfa korisnik": "Alfa korisnik",
+    "Sigma korisnik": "Sigma korisnik",
+
+
+    "opis_galerija_levi_naslov" : "Upoznajte nas",
+    "opis_galerija_levi_1": "Dobrodošli na sajt Galerije Mystique! Upoznajte se sa najboljim slikarima renesanse i humanizma, zatim se otisnite na putovanje kroz svet tajanstvenih umetnosti. Galerija Mystique je vaša ulaznica u magični svet umetnosti koji vas očarava svojom dubinom i simbolikom.",
+    "opis_galerija_levi_2": "Naša galerija predstavlja izvanrednu kolekciju remek-dela koja su ostvarena tokom renesanse i humanizma, perioda koji je obeležio kulturnu revoluciju i izraženu težnju ka ljudskom dostojanstvu i intelektualnom razvoju. Kroz izložene slike, svaki posetilac ima priliku da zaroni u očaravajuću atmosferu tog vremena i da se poveže sa velikim majstorima koji su svojom umetnošću oblikovali svet.",
+    "opis_galerija_levi_3": "Naša galerija nudi jedinstveno iskustvo koje prepliće estetiku, istoriju i mističnost. Svaki izloženi rad je pažljivo odabran da bi se posetiocima pružio dublji uvid u tajanstvene aspekte umetnosti. Svetla, senke, boje i linije stvaraju harmoniju koja osvaja sva čula i poziva na introspekciju.",
+    "opis_galerija_levi_4": "Pored renesanse i humanizma, Galerija Mystique takođe predstavlja dela modernih umetnika koji su nastavili da istražuju tajnovitost i unutrašnju duhovnost kroz svoje stvaralaštvo. Ova savremena dimenzija daje galeriji svežinu i živost, spajajući prošlost i sadašnjost u jedinstveno iskustvo za posetioce.",
+    "opis_galerija_levi_5": "Pratite nas na našem sajtu kako biste se informisali o najnovijim izložbama, događajima i radionicama koje organizujemo. Naš cilj je da svakom posetiocu pružimo mogućnost da otkrije sopstveni unutrašnji mistični svet i da se prepusti čarima umetnosti koja nadilazi granice vremena.",
+    "opis_galerija_levi_6": "Dobrodošli u Galeriju Mystique, gde se susreću prošlost i sadašnjost, a umetnost oživljava u svojoj najmističnijoj formi!",
+
+
+    "opis_galerija_desni_naslov": "Nagrade",
+    "opis_galerija_desni_1": "Ovaj sajt je postao ne samo izvor inspiracije i umetničkog užitka, već je i osvojio priznanja za svoju izuzetnost i inovativnost. WebTonic Nagrada za Izuzetnost, koja slavi vrhunsku kreativnost i tehničku briljantnost, ponosno je dodeljena Galeriji Mystique. Ovaj sajt se ističe po svojoj sposobnosti da spoji estetiku renesanse sa suptilnim digitalnim elementima, pružajući posetiocima jedinstveno iskustvo. Od pažljivo osmišljenih korisničkih interfejsa do vizuelnih efekata koji oživljavaju slike, svaki detalj na sajtu Galerije Mystique odražava strast i posvećenost umetnosti.",
+    "opis_galerija_desni_2": "Kibernetička Zvezda, nagrada koja se dodeljuje za najinovativniji koncept sajta, takođe je pripala Galeriji Mystique. Sajt je koncipiran kao virtuelna galerija koja se ističe po svojoj interaktivnosti i mogućnosti da posetioci istražuju i urone u svet slika. Jedinstveni način na koji su umetnička dela predstavljena na ovom sajtu privukao je pažnju žirija i zasluženo donosi Galeriji Mystique ovo priznanje.",
+    "opis_galerija_desni_3": "Osim toga, Galerija Mystique je takođe osvojila Interaktivni Mađioničar Nagradu, koja priznaje izuzetne interaktivne funkcionalnosti na sajtovima. Umetnici koji su predstavljeni na sajtu mogu da ožive svoje slike kroz interaktivne elemente, omogućavajući posetiocima da istražuju detalje, boje i kompoziciju na jedinstven način. Ova inovativna interakcija je bila ključna u osvajanju ove prestižne nagrade.",
+    "opis_galerija_desni_4": "Ponosni smo što možemo da istaknemo da su Galerija Mystique i njeni umetnici takođe dobili i druge značajne nagrade poput DigiGlorija Povelje za vrhunski dizajn sajta, SajberInovacija Trofeja za pionirski pristup digitalnoj umetnosti, Virtuoznog Veb Priznanja za izuzetnu tehničku izvedbu, TehnoHarmonija Medalje za usklađivanje tehnologije i umetnosti, VebMajstor Pehara za Izvrsnost",
+
+    
+    "kontaktirajte_nas": "Kontaktirajte nas",
+    "kontakt_naziv": "Naziv",
+    "kontakt_adresa": "Adresa: Višegradska 26, Beograd, Srbija",
+    "kontakt_telefon": "Telefon: +123456789",
+    "kontakt_email": "E-mail: laza@lazarevic.com",
+    "kontakt_mapa": "Mapa",
+
+    "opis_pocetna": "Najveća galerija umetnina u Beogradu, koja nudi bogatstvo umetnosti na jednom mestu. Naša galerija je dom za raznovrsnu kolekciju slika, skulptura i još mnogo toga, koju možete istražiti samo jednim klikom. Bez obzira da li ste zaljubljenik u klasične ili moderne umetničke forme, pružamo vam jedinstvenu priliku da uživate u raznolikosti umetničkog izraza. Sa samo nekoliko koraka, možete pregledati našu galeriju, izabrati omiljena dela i jednostavno ih kupiti. Uz najbrži i najjednostavniji način kupovine, pružamo vam neograničen pristup umetninama koje oplemenjuju prostor i dušu. Neka naša galerija bude vaše sigurno utočište za umetnost, gde se inspirišete, otkrivate nove talente i postajete deo šire umetničke zajednice.",
+    "cekanj_pocetna": "Čekamo Vas!",
+    "nova_ponuda_naslov": "Najnovije ponude",
+    "nova_ponuda_korisnik": "Korisnik",
+    "nova_ponuda_um": "Umetnina",
+    "nova_ponuda_vr": "Ponuđena vrednost",
+
+
+    "Korisnicko ime": "Korisnicko ime",
+    "Lozinka": "Lozinka",
+    "Prijavi se": "Prijavi se",
+
+    "Aktuelnosti": "Aktuelnosti",
+    "nova_slika": "NOVO: Od nedavno u našoj galeriji možete kupiti ručno pisane kopije najznačajnijih kompozicija ikad pisanih. Ova jedinstvena ponuda omogućava vam da posedujete autentične reprodukcije remek-dela muzičke umetnosti. Bez obzira da li ste zaljubljenik u klasičnu muziku ili obožavatelj savremenih kompozicija, naša galerija nudi širok spektar ručno pisanih kopija koje će zadovoljiti vaše najistaknutije ukuse. Uz ove kopije, možete doneti duh prošlih vekova u svoj dom i uživati u raskoši i lepoti muzike koja je ostavila neizbrisiv trag u istoriji umetnosti"
+
+}

@@ -1,0 +1,37 @@
+
+------------------------VECI POSAO-------------------------------------------------
+done	Zavrsiti prevodjenje
+-trebalo bi da sam sve radio kroz onu i18n sintaksu - {{$t('key')}} tkd sve sto nije prevedeno kod mene je samo jer nisam napisao
+tacno prevod -> u sustini proci kroz en.json fajl u locales i svaki value koji je na srpskom prevesti
+I da se ono sto nije prebaci u tu sintaksu i doda prevod
+
+done	Baneri
+-Treba da odvojimo prostor za banere sta god to bilo. Sad posto nismo stavili da kroz ceo sajt imamo banere onda bi 
+bilo dobro na jednoj strani da stavimo te banere(sa tim nekim linkovima) -> kontam da je najlogicnije na pocetnoj(negde levo ili desno)
+
+
+----------------------MANJI POSAO---------------------------------------------------
+
+done	Napisati title na svim stranicama
+ -ovo moze da se uradi lako sa - document.title = "Naziv" -> vrv najbolje u created() na pocetku to staviti
+
+done	Neka glupa bela linija
+-Kad se pregledaju umetnici ima neka glupa bela linija koju nisam bas uspeo da uklonim. Odmah ispod poslednjeg umetnika
+Cini mi se da ima neke veze sa marginom ili tog diva ili diva ispod koji nzm sta je -> msm da si to ti nesto dodala zbog footera
+ali pojma nemam
+
+done	Sabotiranje ostavljanja ponude
+-treba da se sabotira korisnik koji nije ulogovan da ostavi ponudu. Kontam da mu se samo zabrani otvaranje one forme posto je na dugme i to,
+ali postoji i onaj deo gde ne treba da mu se prikaze remove u okviru ponude pa i to treba da se sredi
+
+---------------------KRAJNJE OPCIONO--------------------------------------------------
+
+	Eventualno doradjivanje(ovo je jako opciono posto smo dobro uradili VD ispit, a ipak imamo i URV)
+
+-Vizuelno moze da se doradi svakako
+
+-Mozda da se malo sredi ono filtriranje i search
+
+-Da se svi podaci (umetnici, umetnine i korisnici) ucitaju u localstorage da bi, ako nam daju modif, mogli da menjamo to,
+jer ovako se to ne da promeniti niti dodati ista u tu "bazu podataka". Kao da na pocetku povucemo iz fajla u localstorage i onda radimo sa time, 
+medjutim, to je prilican posao jer bi moralo na svim stranama da se kasapi...
