@@ -1,0 +1,52 @@
+    Original
+amgggg
+gggmmg
+mmhmgg
+gggmgm
+gmmmgg
+gggmmx
+
+    Test_1
+amgggg
+gggmmg
+gmmmmm
+ggmmmm
+ggmmmg
+ggghmx
+
+    Test_2
+amgggg
+gggmmg
+gmmmmm
+hgmmmm
+ggmmmg
+ggggmx
+
+    Test_3 - sa diskorda - brze je preko blata nego okolo
+amgggg
+gggmmg
+mmhggg
+ggggmm
+gmmmmg
+gggggx
+
+    Test_4 - sa diskorda
+mggggg
+mmmggg
+ggggmg
+gmgggg
+aghmmg
+ghggxg
+
+    Test_5 - sa diskorda - mora bas veliko gamma(realno 1 i radi uvek)
+ammggg
+gmmmmg
+mmhmmg
+ghmmgm
+hmmmhh
+mghmmx
+
+
+
+
+
