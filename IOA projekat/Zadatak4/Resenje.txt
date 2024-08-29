@@ -1,0 +1,6 @@
+Pri trazenju resenja, koristio sam Brentov metod. Pritom sam obrnuo funkciju i trazio njen minimum. Sa iscrtane funkcije sam odredio u kom intervalu
+se moze potencijalno naci resenje i tako sam odabrao pocetne tri tacke.
+
+Dobijeno resenje je:
+delta =  4.71238898055477
+|Fs| =  6.0

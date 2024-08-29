@@ -1,0 +1,11 @@
+U varijanti pod A sa potpunom pretragom opt fja je pozvana maksimalno 777^4 puta
+U pitanju su cene 0.8$, 1.25$, 2.22$ i 3.5$
+
+U varijanti pod B je cetvrta petlja zamenjena jednostavnim izracunavanjem cetvrte cene i tako smo dobili da je 777^3 maksimalan broj poziva
+opt fje
+
+Brzi je drugi program sto se vidi i kada pokrenemo programe jer se mnogo brze dolazi do resenja.
+U oba slucaja se ispisuju sve varijante resenja(sve permutacije), ali se u slucaju pod A program prekida cim nadje jednu varijantu da 
+ne bi trajao predugo
+
+Trajanje prvog programa iznosi 19.73s(i to sa prekidom posle prvog nadjenog resenja), a ceo drugi program se izvrsi za svega 0.35s

@@ -1,0 +1,7 @@
+Da bi se podaci za rastojanja lepo ucitali potrebno je da se u projektu nalazi i tabela.txt u kojoj su navedene sve udaljenosti.
+
+Najbolja putanja za povezivanje:
+AE - EC - FH - GH - HJ - ID - DC - CB - BJ
+
+Minimalna cena mreze:
+389

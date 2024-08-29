@@ -1,0 +1,5 @@
+Simulirano kaljenje je radjeno u cpp, a iscrtavanje u pajtonu. Bice generisano 20 txt fajlova pod imenom "rezultat_{i}.txt" u koje ce biti smestane vrednosti i kasnije citane.
+
+Najreprezentativnije resenje koje sam pronasao jeste sledece:
+x = (2, 1, 2, 0, 2, 0, 1, 2, 0, 0, 2, 2, 1, 0, 1, 2, 1, 0, 2, 1, 2, 1, 0, 2, 1, 2, 1, 2, 0, 1, 1, 0, 0, 0, 1, 1, 0, 2, 0, 1, 2, 1, 2, 2, 0, 2, 2, 0, 1, 0, 1, 1, 1, 2, 0, 1, 0, 2, 2, 1, 1, 1, 2, 0)
+Opt fja = 155

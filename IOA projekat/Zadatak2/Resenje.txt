@@ -1,0 +1,9 @@
+Program ispisuje svaku najbolju rutu na koju je naisao u tom trenutku.
+
+A)Za 8 tacaka je najoptimalniji sledeci put:
+1  3  6  8  7  5  4  2
+i duzina je 60.435828mm
+
+B)Za 12 tacaka je najoptimalniji sledeci put:
+9  7  5  4  2  1  3  6  8 10 11 12
+i duzina je 114.773773mm
