@@ -1,0 +1,73 @@
+ISPIS RUTA
+
+sh ip bgp
+sh ip ro
+
+POSTAVLJANJE INTERFEJSA I RIP
+
+enable
+conf t
+int f0/0
+ip addr 192.168.12.1 255.255.255.0
+no shut
+int f0/1
+ip addr 192.168.13.1 255.255.255.0
+no shut
+int lo1
+ip addr 10.0.1.1 255.255.255.0
+int lo2
+ip addr 10.0.2.1 255.255.255.0
+int lo3
+ip addr 10.0.3.1 255.255.255.0
+router rip
+network 192.168.12.0
+network 192.168.13.0
+network 10.0.0.0
+
+KONF BGP na R1
+
+router bgp 1
+neighbor 192.168.12.2 remote-as 2
+network 192.168.13.0 mask 255.255.255.0
+network 192.168.14.0 mask 255.255.255.0
+network 192.168.15.0 mask 255.255.255.0
+
+PROMENA ATRIBUTA LP NA R2
+
+R2(config)#router bgp 2
+R2(config-router)#neighbor 192.168.12.1 	route-map as2-in in !postavljanje
+!ulaznog filtra
+R2(config-router)#exit 				!filter as2-in je postavljen za
+!dolazne (in) rute
+R2(config)#route-map as2-in permit 10 		!definicija filtra
+R2(config-route-map)#match ip address 10 	!za adrese definisane listom 10
+R2(config-route-map)#set local-preference 200 	!podesi LP=200
+R2(config-route-map)#exit
+R2(config)#route-map as2-in permit 50 		!za sve ostale rute
+R2(config-route-map)#set local-preference 100 	!podesi LP=100 (default)
+R2(config-route-map)#exit
+R2(config)#access-list 10 permit 192.168.13.0 	!definicija liste 10
+R2(config)#Ctrl-Z
+
+R2#clear ip bgp 192.168.12.1 !restart BGP sesije ka AS2
+
+PROMENA ATRIBUTA AS PATH NA R2
+
+route-map as2-in permit 20
+match ip address 20
+set as-path prepend 1 1 			! dodaj dve oznake AS 1
+access-list 20 permit 192.168.14.0
+
+
+POSTAVLJANJE RAZLICITIH ATRIBUTA 
+
+R2(config-route-map)#set
+
+ as-path Prepend string for a BGP AS-path attribute
+ community BGP community attribute
+ dampening Set BGP route flap dampening parameters
+ local-preference BGP local preference path attribute
+ metric Metric value for destination routing protocol
+ origin BGP origin code
+ weight BGP weight for routing table
+
