@@ -1,0 +1,22 @@
+Dodati JDBC:--------------------------
+projekat_pool2
+projekat_resource2
+com.mysql.cj.jdbc.MysqlDataSource
+
+useSSl				false
+allowPublicKeyRetrieval		True
+servername			localhost
+user				root
+password			etf123
+portNumber			3306
+
+
+Dodati JMS:---------------------------
+mojaFabrika
+mojRed
+mojRed2
+mojRed3
+mojTopic1
+mojTopic2
+
+

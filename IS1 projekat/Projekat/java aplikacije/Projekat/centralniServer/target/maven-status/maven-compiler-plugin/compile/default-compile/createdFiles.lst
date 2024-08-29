@@ -1,0 +1,6 @@
+com\mycompany\centralniserver\JAXRSConfiguration.class
+endpoints\Artikli_rest.class
+endpoints\Transakcije_rest.class
+endpoints\Korisnici_rest.class
+endpoints\Filter.class
+com\mycompany\centralniserver\resources\JavaEE8Resource.class

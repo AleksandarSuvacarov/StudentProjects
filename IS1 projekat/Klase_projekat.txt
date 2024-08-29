@@ -1,0 +1,14 @@
+Korisnik(idKorisnik, korisnickoIme, sifra, ime, prezime, adresa, idGrad, novac)
+Grad(idGrad, naziv)
+
+Artikal(idArt, naziv, opis, cena, popust, idKat, idKor)
+--Prodaje(idKorisnik, idArt, recenzija, ocena)--
+Recenzija(idArt, ocena, opis)
+Kategorija(idKat, naziv)
+Potkategorija(idKat, idNadKat)
+Korpa(idKorp, idKor, cena)
+SE_NALAZI(<<idKorp, idArt>>, kolicina)
+
+Narudzbina(idNar, cena, vreme, adresa, idGrad, idKor)
+Stavka(idSta, idNar, idArt, kolicina, cenaSaPopustom)
+Transakcija(idTran, idNar, placenaSuma, vremePlacanja)
