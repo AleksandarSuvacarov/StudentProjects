@@ -2,7 +2,7 @@ npm install bootstrap
 npm install jquery
 npm install vue-i18n
 
-npm install less less-loader --save-dev			ne znam da li mora
+npm install less less-loader --save-dev		ne znam da li mora
 
 npm install jspdf
 
