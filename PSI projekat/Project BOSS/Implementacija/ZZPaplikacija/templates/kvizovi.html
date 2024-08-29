@@ -1,0 +1,155 @@
+<!-- Jovana Simić 2020/0360 -->
+<!-- Aleksandar Suvačarov 2020/0355 -->
+<!-- Nikola Babić 2020/0363 -->
+
+
+{% include "./header.html" %}
+{% load static %}
+
+        <div class="row">
+            <div class="col-xl-12 text-center naslov" style="margin-bottom: 70px;">
+                Kvizovi
+            </div>
+        </div>
+
+        <script src="{% static 'js/Prijava ekipe/prijava_ekipe.js' %}"></script>
+        <script src="{% static 'js/Pregled prijavljenih ekipa/pregled_prijavljenih_ekipa.js' %}"></script>
+
+        <link rel="stylesheet" href="{% static 'css/Prijava ekipe/prijava_ekipe.css' %}">
+        <link rel="stylesheet" href="{% static 'css/Pregled_prijavljenih_ekipa/pregled_prijavljenih_ekipa.css' %}">
+
+        {% if user.idulo.naziv == "korisnik" or user.idulo.naziv == 'moderator' %}
+            {% if poruka != '' %}
+                <div class="row poruka text-center">{{ poruka }}</div>
+            {% endif %}
+        {% endif %}
+
+        {% if user.idulo.naziv == "organizator" %}
+            <div class="popup" id="popup" data-povratak="{% url 'kvizovi' %}">
+                <div class="container popup_content" id = "popup_content">
+
+                    <div class="row">
+                        <div class="col-xl-6 text-left podnaslov">{{ naziv_kviza }}</div>
+                        <div class="col-xl-6 d-flex flex-row-reverse podnaslov">stanje {{ popunjenost }} / {{ kapacitet_kviza }}</div>
+                    </div>
+
+                    {% for ekipa in ekipe %}
+                        <div class="row ekipa ekipa_pregled">
+                            <div class="col-xl-12 text-center naslov_ekipe">{{ ekipa.0 }}</div>
+                            <div class="col-xl-12 text-center naslov_ekipe">{{ ekipa.1 }}</div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        {% endif %}
+{#       ispisivanje svakog kviza#}
+        {% for kviz in kvizovi %}
+        {% with item_id=forloop.counter %}
+            <div class="row">
+                <div class="col-xl-12">
+                    <div id="organizacija" class="row">
+                        <div class="col-xl-5 col-xxl-5 slikaDrzac" >
+                            <img class="slikaOrg" src="{{kviz.slika.url}}" alt="sport" >
+                        </div>
+                        <div class="col-xl-7 col-xxl-7">
+                            <div class="row" style="background-color: #d69a3200;">
+                                <div class="col-xl-6 col-xxl-6">
+                                    <div class="naslov drzac_naslova">{{ kviz.naslov }}</div>
+{#                                    <div class="tekst" style="font-size: 32px;">Datum: {{ kviz.datumvreme|date:"d M Y"}} </div>#}
+                                    <div class="tekst" style="font-size: 32px;">Vreme: {{ kviz.datumvreme|time:"H:i"}} </div>
+                                    <div class="tekst" style="font-size: 32px;">Adresa: {{ kviz.adresa}} </div>
+                                    <div class="tekst" style="font-size: 32px;">Tema: {{ kviz.idtem.naziv}} </div>
+                                </div>
+                                <div class="col-xl-6 col-xxl-6" >
+                                    <span id="datum" class="badge">
+                                        {{ kviz.datumvreme|date:"M"}}
+                                        <br>{{ kviz.datumvreme|date:"d"}}
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="tekst" style="font-size: 30px; margin-top: 30px; margin-right: 30%; margin-bottom: 20px;">
+                                {{ kviz.opis}}
+
+
+                            </div>
+                            <div class="row" style="background-color: #d69a3200;">
+                                <div class="col-xl-6 col-xxl-6 tekst" style="font-size: 36px; display: flex;align-items: center;">
+
+                                    <img class="rounded" src="{{kviz.idorg.slika.url}}" alt="boss" style="height: 40px; margin-right: 6px;">
+                                    <a href="{% url 'org_strana' org_id=kviz.idorg.idorg.id %}">{{ kviz.idorg.naziv }}</a>
+
+                                </div>
+                                <div class="col-xl-6 col-xxl-6">
+                                    <p class="kotizacija tekst" >Kotizacija: {{ kviz.kotizacija}}din</p>
+                                </div>
+                            </div>
+
+
+                            <div class="row" style="background-color: #d69a3200; margin-top: 2%;">
+                                <div class="col-xl-5 col-xxl-5">
+                                    <p id="slobmesta" class="tekst">
+                                        Popunjeno: {{ kviz.zauzetost }}/{{ kviz.kapacitet }}
+                                    </p>
+                                </div>
+
+                                <div class="col-xl-6 col-xxl-6">
+                                    {% if user.idulo.naziv == "organizator"%}
+                                        {% if user.username == kviz.idorg.idorg.username %}
+                                            <div class="">
+                                            <button type="button" class="btn dugmici prikazi_ekipu" data-prikaz-prijava="{% url 'pregled_ekipa' kviz_id=kviz.idkviz %}" style="margin-left: 57%;width: 50%;">
+                                                Pregled
+                                            </button>
+                                        </div>
+                                        {% endif %}
+                                    {% endif %}
+
+                                    {% if user.idulo.naziv == "korisnik" or user.idulo.naziv == "moderator" %}
+                                        {% if kviz.kapacitet == kviz.zauzetost %}
+                                            <div class="">
+                                                <button type="button" class="btn popunjen_kviz" style="margin-left: 57%;width: 50%;">
+                                                    Kviz Popunjen
+                                                </button>
+                                            </div>
+
+                                        {% else %}
+                                            <div class="">
+                                                <button type="button" class="btn dugmici prijavi_klasa" style="margin-left: 57%;width: 50%;" id="prijavi_{{ item_id }}">
+                                                    Prijavi ekipu
+                                                </button>
+                                            </div>
+                                        {% endif %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <form method="post" action="{% url 'prijavi_ekipu' kviz_id=kviz.idkviz %}">
+                            {% csrf_token %}
+                            <div class="col-xl-12">
+
+                                <div class="drzac_prijave" id="drzac_prijave_{{ item_id }}">
+
+                                    <input type="text" id="naziv_ekipe_{{ item_id }}" name="naziv_ekipe" class="polja_forme" placeholder="Naziv ekipe" aria-describedby="basic-addon1">
+
+                                    <input type="text" id="br_clanova_{{ item_id }}" name="br_clanova" class="polja_forme" placeholder="Broj clanova" aria-describedby="basic-addon1" title="Minimalni broj članova je 2, maksimalni 6">
+
+                                    <button type="submit" class="btn dugmici protvrda" id="potvrdi_{{ item_id }}">
+                                        Potvrdi
+                                    </button>
+
+
+                                </div>
+
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        {% endwith %}
+        {% endfor %}
+
+        
+{% include "./footer.html" %}

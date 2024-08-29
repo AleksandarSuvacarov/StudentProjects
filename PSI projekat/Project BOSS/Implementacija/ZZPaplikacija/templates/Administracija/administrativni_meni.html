@@ -1,0 +1,66 @@
+<!-- Nikola Babić 2020/0363 -->
+
+{% include "../header.html" %}
+
+{% load static %}
+
+    <link rel="stylesheet" href="{% static 'css/Administracija/admin_meni.css' %}">
+
+    <div class="row">
+            <div class="col-xl-12 text-center naslov" style="margin-bottom: 5%">ADMINISTRATIVNI MENI</div>
+    </div>
+    {% if poruka != '' %}
+        <div class="row">
+                <div class="col-xl-12 text-center poruka">
+                    {{ poruka }}
+                </div>
+        </div>
+     {% endif %}
+
+    <div class="row">
+        <div class="col-xl-5 admin_polja" style="padding: 2%;">
+            <div class="tekst podnaslov">Dodaj moderatora</div>
+            <form method="post" style="padding: 2%;">
+                {% csrf_token %}
+                <label for="dodaj_moderatora" class="admin_polja_tekst">Korisničko ime: </label>
+                <input type="text" name="dodaj_moderatora">
+                <input type="submit" value="Dodaj" class="btn dugme_admin_meni">
+            </form>
+        </div>
+
+        <div class="col-xl-5 admin_polja" style="padding: 2%;">
+            <div class="tekst podnaslov">Ukloni ulogu moderatora</div>
+            <form method="post" style="padding: 2%;">
+                {% csrf_token %}
+                <label for="obrisi_moderatora" class="admin_polja_tekst">Korisničko ime: </label>
+                <input type="text" name="obrisi_moderatora">
+                <input type="submit" value="Obriši" class="btn dugme_admin_meni">
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-5 admin_polja" style="padding: 2%;">
+            <div class="tekst podnaslov">Dodaj administratora</div>
+            <form method="post" style="padding: 2%;">
+                {% csrf_token %}
+                <label for="dodaj_administratora" class="admin_polja_tekst">Korisničko ime: </label>
+                <input type="text" name="dodaj_administratora">
+                <input type="submit" value="Dodaj" class="btn dugme_admin_meni">
+            </form>
+        </div>
+
+        <div class="col-xl-5 admin_polja" style="padding: 2%;">
+            <div class="tekst podnaslov">Obriši nalog</div>
+            <form method="post" style="padding: 2%;">
+                {% csrf_token %}
+                <label for="obrisi_nalog" class="admin_polja_tekst">Korisničko ime: </label>
+                <input type="text" name="obrisi_nalog">
+                <input type="submit" value="Obriši" class="btn dugme_admin_meni">
+            </form>
+        </div>
+    </div>
+
+    <div class="row" style="background-color: #E5E3D4; padding: 75px;"></div>
+
+{% include "../footer.html" %}

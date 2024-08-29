@@ -1,0 +1,70 @@
+<!-- Jovana Simić 2020/0360 -->
+<!-- Andrija Ognjanović 2020/0261 -->
+
+{% include "./header.html" %}
+{% load static %}
+        <div class="row">
+            <div class="col-xl-12 text-center naslov" style="margin-bottom: 70px;">
+                Organizacije
+            </div>
+        </div>
+        
+        {% for org in organizatori %}
+        {% if org.odobren == 1 %}
+            <div class="row">
+                <div class="col-xl-12">
+                    <div id="organizacija" class="row" style="margin-bottom: 5%;">
+                        <div class="col-xl-5 col-xxl-5 slikaDrzac">
+                            <img class="slikaOrg" src="{{org.slika.url}}" alt="boss" >
+                        </div>
+                        <div class="col-xl-7 col-xxl-7">
+                            <div class="naslov">{{org.naziv}}</div>
+                            <div class="tekst tekstPrelamanje" style="">{{org.opis}}</div>
+                            <div>
+                                <form method="get" action="{% url 'org_strana' org_id=org.idorg.id %}">
+                                    {% csrf_token %}
+                                    <button id="pronadji" type="submit" class="btn dugmici" style="margin-top: 30px;">
+                                        Više informacija
+                                    </button>
+                                </form>
+                            </div>
+                            <hr style="height: 3px; color: #63564E;">
+
+                                {% if org.predstojecikviz != null %}
+                                <div class="row" style="background-color: #d69a3200;">
+                                    <div class="col-xl-5 col-xxl-5">
+                                        <div class="tekst" style="font-size: 40px; margin-bottom: 30px;">
+                                            Aktuelna dešavanja
+                                        </div>
+                                        <div>
+                                            <p id="slobmesta" class="tekst" style="text-align: center">
+                                                Popunjeno: {{ org.predstojecikviz.zauzetost }}/{{ org.predstojecikviz.kapacitet }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-5 col-xxl-5 dogadjaji" style="height: 80%; margin-bottom: 5%; border: 3px solid #63564E;">
+                                        <div class="drzac_naslova" style="font-size: 32px;">
+                                            {{ org.predstojecikviz.naslov}}
+                                            <img class="predsSlike rounded" src="{{  org.predstojecikviz.slika.url}}">
+                                        </div>
+                                        <div style="font-size: 20px;">
+                                            Tema: {{ org.predstojecikviz.idtem.naziv }}
+                                            <br>Gde: {{  org.predstojecikviz.adresa}}
+                                            <br>Kada: {{  org.predstojecikviz.datumvreme}}
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        {% endif %}
+        {% endfor %}
+        
+        
+
+        
+{% include "./footer.html" %}

@@ -1,0 +1,112 @@
+/*Andrija Ognjanovic 2020/0261*/
+/* ================================ STILOVI ZA RAZNE STRANE, RECENZIJE I DOGADJAJE=================================== */
+.recenzija_polje{
+
+    border-radius: 25px;
+    background-color: #d69a3234;
+    text-align: center;
+
+    margin: auto;
+
+}
+
+.recenzijeTekst{
+    font-family: 'Lato';
+    font-style: normal;
+
+
+    color: #63564E;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    word-wrap: break-word
+
+}
+
+.recenzijaPotpisl{
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #63564E;
+    margin-top: 2%;
+    margin-left: 10%;
+    text-align: left;
+
+
+    /* TODO ispraviti da tekst bude pozicioniran dole skroz */
+}
+
+
+
+
+
+.potpis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #999999;
+}
+
+.vrijeme::before,
+.ime::before {
+    content: "-";
+    margin-right: 5px;
+
+}
+
+.vrijeme {
+    font-size: 14px;
+}
+
+.ime {
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+
+.ocena-slike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.ocena-slika {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.obrisi-dugme {
+    margin-top: 2%;
+
+    float: right;
+}
+
+#predstojeci_dogadjaji {
+    align-items: center;
+
+}
+
+.dogadjaji{
+    height: 100%;
+    border-radius: 25px;
+    background-color: #d69a3234;
+    padding : 10px;
+
+
+}
+.oblacic{
+
+    margin-left: 6.33%;
+
+}
+
+.drzac_recenzije{
+    max-width: 80%;
+    margin: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+}

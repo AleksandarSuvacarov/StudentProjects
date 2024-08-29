@@ -1,0 +1,335 @@
+{
+  "id": "33bc4be6-0243-43f8-ac86-96c623ef02d5",
+  "version": "2.0",
+  "name": "SSU brisanje naloga",
+  "url": "http://127.0.0.1:8000",
+  "tests": [{
+    "id": "26a0cd83-5782-49dc-ad1d-6840e5454053",
+    "name": "Uspesno brisanje naloga",
+    "commands": [{
+      "id": "dc597312-ab52-4d71-b7fd-f1bf8a4fef91",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3e47e19-40e4-4a2b-90ca-eb49545b2751",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1163x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd6c228f-c7d1-4b25-9aef-a591a74bc40a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijavi se",
+      "targets": [
+        ["linkText=Prijavi se", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijavi se')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28b3487d-69ad-4a24-bd2b-0254c20d9634",
+      "comment": "",
+      "command": "click",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed7bac0-c8df-48b0-bb7a-0c9a3637981f",
+      "comment": "",
+      "command": "type",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "51719e36-527b-41f7-baa5-2d2c0eea507f",
+      "comment": "",
+      "command": "click",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e70d08c3-d258-4891-8953-9374b09f9176",
+      "comment": "",
+      "command": "type",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "70be5d05-553b-4d75-97e7-7d4104f81134",
+      "comment": "",
+      "command": "click",
+      "target": "id=prijavi_se",
+      "targets": [
+        ["id=prijavi_se", "id"],
+        ["css=#prijavi_se", "css:finder"],
+        ["xpath=//button[@id='prijavi_se']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e5dd90c-5b80-4c27-aba6-09708e698a07",
+      "comment": "",
+      "command": "click",
+      "target": "name=obrisi_nalog",
+      "targets": [
+        ["name=obrisi_nalog", "name"],
+        ["css=.row:nth-child(5) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_nalog']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71771b2-0d78-43cb-ad70-84d883bd0d09",
+      "comment": "",
+      "command": "type",
+      "target": "name=obrisi_nalog",
+      "targets": [
+        ["name=obrisi_nalog", "name"],
+        ["css=.row:nth-child(5) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_nalog']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": "mika"
+    }, {
+      "id": "11dc797a-d51b-4cdb-85a2-90ed6bf22159",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(5) > .col-xl-5:nth-child(2) .btn",
+      "targets": [
+        ["css=.row:nth-child(5) > .col-xl-5:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//input[@value='Obriši'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6449dd10-4fbc-4655-a780-659e0656c155",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.poruka",
+      "targets": [
+        ["css=.poruka", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Nalog sa korisnickim imenom mika je uspesno obrisan."
+    }, {
+      "id": "913c8ea0-a987-4338-8d8f-5c3d526a2141",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3528d27b-dfac-45c1-aab9-4ae8f5759ffb",
+    "name": "Neuspesno brisanje naloga - nalog ne postoji",
+    "commands": [{
+      "id": "a8c4f855-65c3-4b05-bd4d-a8774aa5824c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ea364ea-eda3-43ac-8a12-8deacbe856a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1163x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d373d223-f5ea-4ca6-9b87-6aa69cccb3b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijavi se",
+      "targets": [
+        ["linkText=Prijavi se", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijavi se')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ac8f97d-b3a7-4d2a-a7af-2b748000d498",
+      "comment": "",
+      "command": "click",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e997e5e7-b3f2-4bfa-b4f6-d34331ecea4b",
+      "comment": "",
+      "command": "type",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "525e99fc-fe89-4437-a782-84af3d724f72",
+      "comment": "",
+      "command": "click",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d63549b6-de73-4406-b11b-fea6da8eca83",
+      "comment": "",
+      "command": "type",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "24afb550-a1da-4a30-834b-297b097154af",
+      "comment": "",
+      "command": "click",
+      "target": "id=prijavi_se",
+      "targets": [
+        ["id=prijavi_se", "id"],
+        ["css=#prijavi_se", "css:finder"],
+        ["xpath=//button[@id='prijavi_se']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18109ff4-1219-4255-b7bd-67af2515d796",
+      "comment": "",
+      "command": "click",
+      "target": "name=obrisi_nalog",
+      "targets": [
+        ["name=obrisi_nalog", "name"],
+        ["css=.row:nth-child(5) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_nalog']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62cbb384-abf0-4d57-a5d8-6c7ab7c1e8c4",
+      "comment": "",
+      "command": "type",
+      "target": "name=obrisi_nalog",
+      "targets": [
+        ["name=obrisi_nalog", "name"],
+        ["css=.row:nth-child(5) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_nalog']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": "ne_postoji"
+    }, {
+      "id": "e53be20d-01b1-4868-ac95-673031bc04a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(5) > .col-xl-5:nth-child(2) .btn",
+      "targets": [
+        ["css=.row:nth-child(5) > .col-xl-5:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//input[@value='Obriši'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "426973ef-454b-4a85-8174-2e775beb6577",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.poruka",
+      "targets": [
+        ["css=.poruka", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Korisnik sa ovim korisnickim imenom ne postoji"
+    }, {
+      "id": "fcd249ef-e1a0-42c3-8b20-650915903dde",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fcf89d89-8933-49e1-8029-187afacd7e22",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["26a0cd83-5782-49dc-ad1d-6840e5454053"]
+  }],
+  "urls": ["http://127.0.0.1:8000/administrativni_meni/", "http://127.0.0.1:8000/"],
+  "plugins": []
+}

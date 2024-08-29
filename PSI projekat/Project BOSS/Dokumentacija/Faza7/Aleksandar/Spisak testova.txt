@@ -1,0 +1,24 @@
+Registracija organizatora:
+-Uspesno registrovanje
+-Nisu popunjena sva polja(svih 7 polja)
+-Slika nije u dobrom formatu
+-Korisnik sa korisnickim imenom vec postoji
+-Lozinke se ne podudaraju
+
+Ostavljanje recenzija:
+-Korisnik ostavlja recenziju
+
+Revizija recenzija:
+-Korisnik ne moze da ukloni tudju recenziju
+-Moderator uklanja recenziju koju je ostavio drugi korisnik
+
+Administriranje - Dodavanje uloge moderatora:
+-Uspesno dodavanje uloge moderatora
+-Korisnik vec ima ulogu moderatora
+-Korisnik ne postoji u sistemu
+
+Najbolje je izvrsavati testove po ovom redosledu
+Potrebno je da se u bazi ne nalazi korisnik sa username "org"
+Potrebno je da postoji obican korisnik "pera" sa lozinkom "pera123"
+Potrebno je da postoji moderator "moderator" sa lozinkom "moderator"
+Potrebno je da postoji admin "admin" sa lozinkom "admin"

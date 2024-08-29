@@ -1,0 +1,125 @@
+/* Aleksandar Suvačarov 2020/0355 */
+/* ================================ STILOVI ZA AUTENTIFIKACIJU=================================== */
+
+body{
+    background-color: aliceblue;
+}
+
+.drzac{
+    /*width: 50%;*/
+    /*height: 50%;*/
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.drzac_forme{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30%;
+    height: fit-content;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+
+    background: #E5E3D4;
+    /*background-color: black;*/
+    border: 3px solid #63564E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.naslov_forme{
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    margin-top: 1%;
+
+    color: #63564E;
+}
+
+
+.poljeOrg{
+    /* position: absolute;
+    left: 11.06%;
+    right: 10.92%;
+    top: 29.71%;
+    bottom: 62.65%; */
+    width: 80%;
+    margin-top: 1%;
+}
+
+.korisnicko_ime_forma{
+    /* position: absolute;
+    left: 11.06%;
+    right: 10.92%;
+    top: 29.71%;
+    bottom: 62.65%; */
+    width: 80%;
+    margin-top: 1%;
+}
+
+.sifra1_forma{
+    /* position: absolute;
+    left: 11.06%;
+    right: 10.92%;
+    top: 42.44%;
+    bottom: 49.92%; */
+    width: 80%;
+    margin-top: 1%;
+}
+
+.sifra2_forma{
+    /* position: absolute;
+    left: 11.06%;
+    right: 10.92%;
+    top: 50.44%;
+    bottom: 49.92%; */
+    width: 80%;
+    margin-top: 1%;
+}
+
+
+#prijavi_se{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FDFFFE;
+
+    margin-top: 10%;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    background-color: #EFB450;
+    color: #FDFFFE;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#prijavi_se:hover {
+    color: #87756A;
+}
+
+.drzac_forme p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    margin-top: 5%;
+
+    color: #63564E;
+}
+
+.poruka{
+    color: red!important;
+}

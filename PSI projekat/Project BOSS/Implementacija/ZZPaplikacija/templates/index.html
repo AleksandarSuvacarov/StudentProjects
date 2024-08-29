@@ -1,0 +1,114 @@
+<!-- Nikola Babić 2020/0363 -->
+<!-- Jovana Simić 2020/0360 -->
+<!-- Andrija Ognjanović 2020/0261 -->
+
+{% include "./header.html" %}
+{% load static %}
+
+        <link rel="stylesheet" href="{% static 'css/Index/index.css' %}">
+
+        <div id="uvodni" class="row">
+            <div class="col-xl-6 col-xxl-6">
+                <div class="naslov" style="margin-left: 30%;">ZNAM ZA PAB</div>
+
+                <div class="tekst" style="margin-left: 30%; margin-top: 100px; margin-right: 10%; font-size: 20px;">
+                    Stranica koja rekreira takmičarsku atmosferu pab kvizova toliko realno da možeš da osetiš ukus piva, miris dima i pivom smokren takmičarski papir.
+                </div>
+
+                <div>
+                    <button onclick="location.href='{% url 'kvizovi' %}'" id="pronadji" type="button" class="btn dugmici" style="margin-left: 30%; margin-top: 60px;">
+                        Pronađi kviz
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-xxl-6">
+                <img src="{% static 'images/pivo.png' %}" alt="pivo">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-12 col-xxl-12">
+                <h1 id="org" class="text-center">ORGANIZACIJE</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            {% if slike|length > 0 %}
+                <div class="col-xl-12 col-xxl-12">
+
+                    <div id="slajdovi" class="carousel slide" data-bs-ride="carousel">
+
+                        <!--crtice-->
+                        <div class="carousel-indicators">
+                            {% for slika in slike %}
+                                {% with i=forloop.counter  %}
+                                    <button type="button" data-bs-target="#slajdovi" data-bs-slide-to="{{ i }}" class="active"></button>
+                                {% endwith %}
+                            {% endfor %}
+                        </div>
+
+                    <!--slideshow-->
+                    <div class="carousel-inner" style="height: 502px;">
+                        {% for slika in slike %}
+                            {% with i=forloop.counter  %}
+                                {% if i == 1 %}
+                                    <div class="carousel-item active">
+                                        <img src="{{ slika }}" alt="slajdovi" class="d-block w-100" style="height:502px; object-fit: contain;">
+                                    </div>
+                                {% else %}
+                                    <div class="carousel-item">
+                                        <img src="{{ slika }}" alt="slajdovi" class="d-block w-100" style="height:502px; object-fit: contain;">
+                                    </div>
+                                {% endif %}
+                            {% endwith %}
+                        {% endfor %}
+                    </div>
+
+                    <!--levo/desno kontrola-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#slajdovi" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#slajdovi" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            {% else %}
+                <div class="col-xl-12 col-xxl-12 text-center">
+                    Nema organizacija ili nema odobrenih organizacija
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-xl-12 col-xxl-12">
+                <h1 id="org" class="text-center" style="margin-bottom: 30px;">PREDSTOJEĆI DOGAĐAJI</h1>
+            </div>
+
+            <div id="predstojeci_dogadjaji" class="row justify-content-center">
+                {% for dog in dogadjaji %}
+
+                        <div class="col-xl-3 index_dogadjaji">
+                                <div class="row" style="background: transparent">
+                                    <div class="col-xl-9 index_dogadjaji_naslov">
+                                        {{ dog.naslov }}
+                                    </div>
+                                    <div class="col-xl-3 dogadjaji_slika_container d-flex justify-content-end">
+                                        <img src="{{ dog.slika.url }}" alt="{{ dog.naslov }}">
+                                    </div>
+                                </div>
+                                <div class="text_informacija">
+                                    <br><span style="font-weight: bold">Lokacija:</span> {{ dog.adresa }}
+                                    <br><span style="font-weight: bold">Vreme:</span> {{ dog.datumvreme|time:"H:i" }}
+                                    <br><span style="font-weight: bold">Datum:</span>{{ dog.datumvreme|date:"d M Y" }}
+                                    <br><span style="font-weight: bold">Organizator:</span> {{ dog.idorg.naziv }}
+                                </div>
+                        </div>
+
+                {% endfor %}
+            </div>
+
+        <div class="row" style="background-color: #E5E3D4; padding: 75px;"></div>
+
+{% include "./footer.html" %}

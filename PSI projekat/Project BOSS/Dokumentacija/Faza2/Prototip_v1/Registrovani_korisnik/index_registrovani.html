@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Aleksandar Suvacarov 0355/20-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../Skripte/proba_javascript.js"></script>
+    <link rel="stylesheet" href="../Stilovi/stil_glavni.css">
+
+    <link rel="icon" href="../slike/ZZP_logo.png" type="image/icon type">
+    <title>ZnamZaPub</title>
+</head>
+
+
+<body>
+
+<div class="container-fluid main_container pozadinski">
+    <div class="header row">
+        <div class="col-xl-12 col-md-9">
+            <nav class="navbar navbar-expand-sm navbar-light">  
+                <span>                
+                    <img src="../slike/ZZP_logo.png" alt="Logo" class="logo_slika">
+                </span>                              
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Pocetna</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <div class="content row">
+
+        <div class="content_left containter col-xl-2">            
+        </div>
+
+        <div class="content_center containter col-xl-8">
+        
+            <div class="objava row">
+
+                <span class="col-xl-2 objava_left">
+                <img src="../slike/sova.jpg" alt="Znak">
+                <p>
+                    <b>Lokal:</b> Jedno lepo mesto
+                    <br><b>Adresa:</b> Jedno jos lepse mesto
+                    <br><b>Datum:</b> 30.2.2023.
+                    <br><b>Vreme:</b> 19:30
+                    <br><b>Kapacitet:</b> 27/95
+                    <br><b>Kotizacija:</b> 200 RSD
+                    <br><b>Organizator:</b> <a href="organizator_boss_registrovani.html">BOSS</a>.
+                </p>
+                </span>
+
+                <span class="col-xl-8">
+                <h1>Kviz opsteg znanja na slovo</h1>
+                Cetvrtak je idealan dan za novi kviz opsteg znanja na slovo, na slovo(svaka oblast ima zadato 
+                slovo i svi odgovori pocinju na to slovo)                 
+                </span>
+
+                <span class="col-xl-2" style="display: grid;">
+                    <button class="btn btn-warning dugme_prijava" onclick="myFunction1()">Prijavi ekipu</button>
+                            
+                </span>
+
+                <div id="obrazac1" class="objava_prijava" style="display: none;">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Ime ekipe" aria-label="Ime ekipe" aria-describedby="basic-addon1">
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" placeholder="Broj clanova" aria-label="Broj clanova" aria-describedby="basic-addon1">
+                    </div>
+                    <div>
+                        <button class="btn-success">Prijavi</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="objava row">
+
+                <span class="col-xl-2 objava_left">
+                <img src="../slike/mikasa.jpg" alt="Znak">
+                <p>
+                    <b>Lokal:</b> Drugo lepo mesto
+                    <br><b>Adresa:</b> Drugo jos lepse mesto
+                    <br><b>Datum:</b> 30.2.2023.
+                    <br><b>Vreme:</b> 19:30
+                    <br><b>Kapacitet:</b> 27/95
+                    <br><b>Kotizacija:</b> 200 RSD
+                    <br><b>Organizator:</b> <a href="organizator_boss_registrovani.html">BOSS</a>.
+                </p>
+                </span>
+
+                <span class="col-xl-8">
+                <h1>Anime kviz</h1>
+                Cetvrtak je idealan dan za novi anime kviz, gde cete ponovo moci da pokazete vase beskorisno poznavanje
+                japanskih crtanih filmova i da se hvalite kako ste bas vi prepoznali neki nebitan anime na osnovu najrandom scene
+                koju ste slucajno zapamtili                
+                </span>
+
+                <span class="col-xl-2" style="display: grid;">
+                    <button class="btn btn-warning dugme_prijava" onclick="myFunction2()">Prijavi ekipu</button> 
+                                  
+                </span>
+
+                <div id="obrazac2" class="objava_prijava" style="display: none;">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Ime ekipe" aria-label="Ime ekipe" aria-describedby="basic-addon1">
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" placeholder="Broj clanova" aria-label="Broj clanova" aria-describedby="basic-addon1">
+                    </div>
+                    <div>
+                        <button class="btn-success">Prijavi</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="objava row">
+
+                <span class="col-xl-2 objava_left">
+                <img src="../slike/muzika.jpg" alt="Znak">
+                <p>
+                    <b>Lokal:</b> Trece lepo mesto
+                    <br><b>Adresa:</b> Trece jos lepse mesto
+                    <br><b>Datum:</b> 30.2.2023.
+                    <br><b>Vreme:</b> 19:30
+                    <br><b>Kapacitet:</b> 27/95
+                    <br><b>Kotizacija:</b> 200 RSD
+                    <br><b>Organizator:</b> <a href="organizator_boss_registrovani.html">BOSS</a>.
+                </p>
+                </span>
+
+                <span class="col-xl-8">
+                <h1>Muzicki kviz</h1>
+                Cetvrtak je idealan dan za novi kviz gde cete ponovo moci da pokazete kako slabo poznajete tekstove
+                svojih navodno omiljenih pesama, gde ce opet pobediti neka grupa devojaka koja iz nekog razloga zna svaku
+                pesmu ikada napravljenu i najbitnije od svega, gde ce muzika biti toliko glasna da opusteno mozete da pustite svoj
+                glas jer niko nece moci da cuje kako lose pevate.                
+                </span>
+
+                <span class="col-xl-2" style="display: grid;">
+                    <button class="btn btn-warning dugme_prijava" onclick="myFunction3()">Prijavi ekipu</button> 
+                                   
+                </span>
+
+                <div id="obrazac3" class="objava_prijava" style="display: none;">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Ime ekipe" aria-label="Ime ekipe" aria-describedby="basic-addon1">
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" placeholder="Broj clanova" aria-label="Broj clanova" aria-describedby="basic-addon1">
+                    </div>
+                    <div>
+                        <button class="btn-success">Prijavi</button>
+                    </div>
+                </div>
+
+            </div>
+
+            
+            
+        </div>
+        <div class="content_right containter col-xl-2">      
+            
+        </div>
+    </div>
+
+    <div class="footer containter col-xl-12">
+        
+        Made by team <img src="../slike/BOSS_logo.png" alt="logo tima" style="width: 8%">
+    </div>
+
+</div>
+    
+</body>
+</html>

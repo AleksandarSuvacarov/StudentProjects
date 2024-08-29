@@ -1,0 +1,170 @@
+{
+  "id": "2a19afad-a466-4091-aa4f-1181a90d6c00",
+  "version": "2.0",
+  "name": "SSU uklajanje recenzija",
+  "url": "http://127.0.0.1:8000",
+  "tests": [{
+    "id": "afc723dd-b8fa-4483-b89e-5c011441e68e",
+    "name": "Uspesno uklanjanje recenzije",
+    "commands": [{
+      "id": "3cd3be90-5c1e-4d27-9b50-f65f34184209",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e75dc763-5307-42a1-becb-22f14bc13d65",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1163x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dee7a2b-8a68-4552-9223-71de30847f53",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijavi se",
+      "targets": [
+        ["linkText=Prijavi se", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijavi se')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aee1012-45dd-424a-9312-db6362203219",
+      "comment": "",
+      "command": "click",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4073c032-1881-4ef7-a04e-fcb57b1cb573",
+      "comment": "",
+      "command": "type",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "zika"
+    }, {
+      "id": "7349b21d-99c5-4e43-ac8a-c5627507a2d2",
+      "comment": "",
+      "command": "type",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "zika123"
+    }, {
+      "id": "8d717caa-1519-4671-944e-e20316683e24",
+      "comment": "",
+      "command": "click",
+      "target": "id=prijavi_se",
+      "targets": [
+        ["id=prijavi_se", "id"],
+        ["css=#prijavi_se", "css:finder"],
+        ["xpath=//button[@id='prijavi_se']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a822527f-2d76-4b90-8d0f-511d9c00d563",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Organizacije",
+      "targets": [
+        ["linkText=Organizacije", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Organizacije')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/organizacije/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Organizacije')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c3c3d55-d8c5-4c90-bff8-cab264521298",
+      "comment": "",
+      "command": "click",
+      "target": "id=pronadji",
+      "targets": [
+        ["id=pronadji", "id"],
+        ["css=.row:nth-child(3) #pronadji", "css:finder"],
+        ["xpath=//button[@id='pronadji']", "xpath:attributes"],
+        ["xpath=//div[@id='organizacija']/div[2]/div[3]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Više informacija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "476ce40d-9814-4b67-b899-f2a2a020ec7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='recenzija_forma']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Obriši')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "947e0668-a02d-4f46-8889-1c774489fb61",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.poruka",
+      "targets": [
+        ["css=.poruka", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Recenzija je uspešno obrisana."
+    }, {
+      "id": "5acb566f-d3d7-49e1-8973-e1b09e04ca88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d3879169-b3fd-48e8-880c-a2cb012d3d95",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["afc723dd-b8fa-4483-b89e-5c011441e68e"]
+  }],
+  "urls": ["http://127.0.0.1:8000/organizacije/", "http://127.0.0.1:8000/"],
+  "plugins": []
+}

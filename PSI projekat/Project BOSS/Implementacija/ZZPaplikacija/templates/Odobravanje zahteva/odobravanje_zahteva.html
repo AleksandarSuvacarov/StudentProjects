@@ -1,0 +1,43 @@
+{% include "../header.html" %}
+{% load static %}
+        <!-- Aleksandar Suvačarov 2020/0355-->
+        <link rel="stylesheet" href="{% static "css/Odobravanje zahteva/odobravanje_zahteva.css" %}">
+
+        <div class="row">
+            <div class="col-xl-12 text-center naslov" style="margin-bottom: 70px;">
+                ZAHTEVI
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="row drzac_zahteva" style="margin-bottom: 20%;">
+                        <table class="tabela_zahtevi">
+                            <tr>
+                                <th>Organizacije</th>
+                                <th>Odobravanje</th>
+                            </tr>
+
+                            {% for organizator in organizatori %}
+                                <tr>
+                                    <td><a id="link_org" href="{% url 'org_strana' org_id=organizator.idorg.id %}" style="text-decoration: none">{{ organizator.naziv }}</a></td>
+                                    <td>
+                                        <form method="post">
+                                            {% csrf_token %}
+                                            <input type="text" name="org_id_za_odobrenje" value="{{ organizator.idorg.id }}" style="display: none">
+                                            <button type="submit" class="btn odobri_dugme">Odobri</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+        
+
+        <div class="row" style="background-color: #E5E3D4; padding: 75px;"></div>
+{% include "../footer.html" %}

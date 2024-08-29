@@ -1,0 +1,206 @@
+<!-- Andrija Ognjanović 2020/0261 -->
+<!-- Jovana Simić 2020/0360 -->
+{% include "./header.html" %}
+{% load static %}
+        <div class="row">
+            <div class="col-xl-12 text-center naslov" style="margin-bottom: 70px;">
+                {{organizator.naziv}}
+            </div>
+        </div>
+        {% if poruka != '' %}
+        <div class="row">
+                <div class="col-xl-12 text-center poruka">
+                    {{ poruka }}
+                </div>
+        </div>
+     {% endif %}
+
+        <div class="row">
+            <div class="col-xl-12">
+
+                <table class="table table-bordered" style="border: 3px solid #63564E;height: 700px; width: 95%; margin-left: auto; margin-right: auto;">
+
+                    <tr>
+                        <td class="celijaT">
+                            <div>
+                                <img src="{% static 'images/cubes.png' %}" alt="cubes" class="tabelaSlike">
+                            </div>
+                            <div class="tabelaNaslov">Opis</div>
+                            <div class="tabelaTekst">
+                                {{ organizator.opis}}
+                            </div>
+                        </td>
+                        <td rowspan="2" style="width: 40%;"><img src="{{organizator.slika.url}} " alt="boss"  style="height: 700px; width: 100%; object-fit: cover;"></td>
+                        <td class="celijaT">
+                            <div>
+                                <img src="{% static 'images/letter1.png' %}" alt="cubes" class="tabelaSlike">
+                            </div>
+                            <div class="tabelaNaslov">Teme</div>
+                            <div class="tabelaTekst">
+                                {{ organizator.teme}}
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="celijaT">
+                            <div>
+                                <img src="{% static 'images/idea.png' %}" alt="cubes" class="tabelaSlike">
+                            </div>
+                            <div class="tabelaNaslov">Broj kvizova</div>
+                            <div class="tabelaTekst text-center" style="font-size: 60px; margin-top: 5%; margin-bottom: 5%;">
+                                {{ organizator.brkvizova }}
+                            </div>
+                        </td>
+                        
+                        <td class="celijaT">
+                            <div>
+                                <img src="{% static 'images/pivo braon.png' %}" alt="cubes" class="tabelaSlike">
+                            </div>
+                            <div class="tabelaNaslov">Ocena</div>
+                            <div class="tabelaTekst text-center">
+
+{#                                ispisivanje prosecne ocene#}
+                                {% if prosek == 0 %}
+                                    <p style="font-size: 60px">/</p>
+                                {% endif %}
+                                {% with ''|center:prosek as range %}
+                                {% for _ in range %}
+                                    <img src="{% static 'images/beer.png' %}" alt="beer" class="tabelaSlike">
+                                {% endfor %}
+                                {% endwith %}
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-12 tekstOrg text-center" >
+                Recenzije
+            </div>
+        </div>
+{#        ispisivanje recenzija#}
+        <div style="overflow-x: hidden; overflow-y: auto; max-height: 400px;">
+            <div id="sve_recenzije">
+                {% for rec in recenzije %}
+                    <div class="row">
+                        <div class="col-xl-12 recenzija_polje" style="height: 20%; width: 80%; margin-bottom: 5px">
+                            {% if rec.idkorrec ==  user or user.idulo.naziv == "moderator" %}
+                                <form method="post" id="recenzija_forma" enctype="multipart/form-data">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-danger btn-sm obrisi-dugme">Obriši</button>
+                                    <input name="rec_za_brisanje" style="display: none" type="text" value="{{rec.idrec}}">
+                                </form>
+                            {% endif %}
+                            <div class="tekst drzac_recenzije" style="font-size: 32px;">
+                                {{ rec.komentar }}
+                            </div>
+                            <div class="ocena-slike">
+
+                                {% with ''|center:rec.ocena as range %}
+                                {% for _ in range %}
+                                    <img src="{% static 'images/beer.png' %}" alt="beer" class="ocena-slika">
+                                {% endfor %}
+                                {% endwith %}
+
+                            </div>
+                            <div class="potpis">
+                                <div class="vrijeme">{{ rec.datumvreme }}</div>
+                                <div class="ime">{{ rec.idkorrec.username }}</div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <form method="post" id="recenzija_forma" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% if user.idulo.naziv == "korisnik" or user.idulo.naziv == "moderator"%}
+                <div class="row">
+                    <div class="col-xl-12 text-center" >
+                        <button id="ostaviRec" type="button" class="btn dugmici" style="margin-top: 50px; margin-bottom: 40px;">
+                            Ostavi recenziju
+                        </button>
+                    </div>
+                </div>
+            {% endif %}
+            <div class="row" >
+
+                    <div class="col-xl-12 text-center" id="zaRecenzije" >
+                        <div>
+                            <table style="margin: auto;" class="text-center" id="tabela">
+                                <tr>
+                                    <td class="celija" id="1">
+                                        <img id="sl1" src="{% static 'images/pivo braon.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                        <img id="pivo1" src="{% static 'images/beer.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                    </td>
+                                    <td class="celija" id="2">
+                                        <img id="sl2" src="{% static 'images/pivo braon.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                        <img id="pivo2" src="{% static 'images/beer.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                    </td>
+                                    <td class="celija" id="3">
+                                        <img id="sl3" src="{% static 'images/pivo braon.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                        <img id="pivo3" src="{% static 'images/beer.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                    </td>
+                                    <td class="celija" id="4">
+                                        <img id="sl4" src="{% static 'images/pivo braon.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                        <img id="pivo4" src="{% static 'images/beer.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                    </td>
+                                    <td class="celija" id="5">
+                                        <img id="sl5" src="{% static 'images/pivo braon.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                        <img id="pivo5" src="{% static 'images/beer.png' %}" alt="cubes" class="tabelaSlike" style="width: 50px; height: 50px">
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="text" id="nevidljiv" name="nevidljiv" >
+
+                        </div>
+                        <input type="text" id="recenzijica" placeholder="Unesite recenziju" name="recenzijica" >
+                        <button id="okaciRec" type="submit" class="btn dugmici" style="margin-top: 50px; margin-bottom: 50px;">
+                            Okači
+                        </button>
+                    </div>
+
+            </div>
+        </form>
+
+
+
+        <div class="row">
+            <hr style="border-top: 6px solid #63564E; width: 80%; margin-left: auto; margin-right: auto;" >
+        </div>
+        
+{#      predstojeci dogadjaji odgovarajuce organizacije#}
+        <div class="row">
+            <div class="col-xl-12 col-xxl-12">
+                <h1 id="org" class="text-center" style="margin-bottom: 30px;">PREDSTOJEĆI DOGAĐAJI</h1>
+            </div>
+            
+            <div id="predstojeci_dogadjaji" class="row">
+                {% for dog in dogadjaji %}
+                    {%   if forloop.counter < 4 %}
+                        <div class="col-xl-3 oblacic">
+                            <div class=" dogadjaji">
+                                <div style="font-size: 32px;">
+                                    {{ dog.naslov }}
+                                    <br>
+                                    <img class="predsSlike rounded" src="{{ dog.slika.url }}" alt="slika">
+                                </div>
+                                <div style="font-size: 20px;">
+                                    <br>Gde: {{ dog.adresa }}
+                                    <br>Kada: {{ dog.datumvreme }}
+                                    <br>Organizator: {{ dog.idorg.naziv }}
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="row" style="background-color: #E5E3D4; padding: 75px;"></div>
+        
+{% include "./footer.html" %}

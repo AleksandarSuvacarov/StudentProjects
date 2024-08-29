@@ -1,0 +1,51 @@
+/* Aleksandar Suvačarov 2020/0355 */
+/* ================================ STILOVI ZA PRIJAVU EKIPE=================================== */
+
+.protvrda{
+    display: block;
+    margin:auto !important;
+    width: 30% !important;
+    margin-top: 1% !important;
+}
+
+.polja_forme{
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+
+    max-height: 200px;
+
+    display: block;
+}
+
+.poruka{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+    /*height: 10% !important;*/
+    padding-bottom: 2%;
+
+    color: #a14f20 !important;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.popunjen_kviz{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FDFFFE;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    background-color: #a14f20;
+    color: #FDFFFE;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+

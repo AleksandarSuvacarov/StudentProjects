@@ -1,0 +1,494 @@
+{
+  "id": "1c40febe-d124-4cc6-91fc-b6619070e618",
+  "version": "2.0",
+  "name": "SSU uklanjanje uloge moderatora",
+  "url": "http://127.0.0.1:8000",
+  "tests": [{
+    "id": "26c9597f-027e-4fb4-9531-878ef64f861f",
+    "name": "Neuspesno uklanjanje - korisnik ne postoji",
+    "commands": [{
+      "id": "fbb82a39-0660-4d8c-93b9-d192bf24de5c",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14e01209-b87b-4155-9721-01a4cf341bc9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1373x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "814f2c13-3edb-4aa8-bc8b-2734883b7b3f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijavi se",
+      "targets": [
+        ["linkText=Prijavi se", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijavi se')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "372f314c-b07a-43fc-ba56-9b3cc67a038e",
+      "comment": "",
+      "command": "click",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8023e02b-82d0-4b5c-9b35-a6c0b2367b23",
+      "comment": "",
+      "command": "type",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "49e0522a-79d8-4649-95d6-ec048f63cc4d",
+      "comment": "",
+      "command": "click",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb9e3c02-b9c7-4008-8774-38f0da1e243a",
+      "comment": "",
+      "command": "type",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "2e488114-d2b4-44a1-9980-cb21ce37da15",
+      "comment": "",
+      "command": "click",
+      "target": "id=prijavi_se",
+      "targets": [
+        ["id=prijavi_se", "id"],
+        ["css=#prijavi_se", "css:finder"],
+        ["xpath=//button[@id='prijavi_se']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e94a4bdb-4047-4181-b3eb-55210a32b991",
+      "comment": "",
+      "command": "click",
+      "target": "name=obrisi_moderatora",
+      "targets": [
+        ["name=obrisi_moderatora", "name"],
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_moderatora']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d03b55b6-c838-4b3c-a548-a4f76e3d9871",
+      "comment": "",
+      "command": "type",
+      "target": "name=obrisi_moderatora",
+      "targets": [
+        ["name=obrisi_moderatora", "name"],
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_moderatora']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": "ne_postoji"
+    }, {
+      "id": "0d7464a9-75fc-4242-93c2-2ed0c08de684",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col-xl-5:nth-child(2) .btn",
+      "targets": [
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) .btn", "css:finder"],
+        ["xpath=//input[@value='Obriši']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47d6ae95-f1e9-4527-a71f-88153c9576a2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.poruka",
+      "targets": [
+        ["css=.poruka", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Korisnik sa ovim korisnickim imenom ne postoji"
+    }, {
+      "id": "0cc1644b-8f29-4653-8aad-db1d728d9a8d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "86f49a48-1e4e-4298-80e8-2076d87fd2ed",
+    "name": "Neuspesno uklanjanje - korisnik nije moderator",
+    "commands": [{
+      "id": "0064a787-8f7f-45c9-9c2d-36cdda87aec3",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02dcf4ab-111a-4e76-8d5e-4bc26a3b0b0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1373x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e7b8bd7-c7e8-42b8-b1dd-86b857a62b4e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijavi se",
+      "targets": [
+        ["linkText=Prijavi se", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijavi se')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "882ecbe7-f552-4f62-8c5f-391e0ab6a3a6",
+      "comment": "",
+      "command": "click",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1876ee26-91e4-46d9-ade0-58742d1ee95a",
+      "comment": "",
+      "command": "type",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "6ae7bccb-f1d6-465b-9994-b8e600cf47fc",
+      "comment": "",
+      "command": "click",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f6af348-484d-4905-bf20-8392d3c581c7",
+      "comment": "",
+      "command": "type",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "f07df060-87bc-4443-8124-5af8c91869c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=prijavi_se",
+      "targets": [
+        ["id=prijavi_se", "id"],
+        ["css=#prijavi_se", "css:finder"],
+        ["xpath=//button[@id='prijavi_se']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f63eb75-d145-41a5-b74f-5fd46be8b11b",
+      "comment": "",
+      "command": "click",
+      "target": "name=obrisi_moderatora",
+      "targets": [
+        ["name=obrisi_moderatora", "name"],
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_moderatora']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a4bf89-31ef-41da-a6db-02c85ee2ca47",
+      "comment": "",
+      "command": "type",
+      "target": "name=obrisi_moderatora",
+      "targets": [
+        ["name=obrisi_moderatora", "name"],
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_moderatora']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": "zika"
+    }, {
+      "id": "462b0364-9530-4d35-8cfa-7067748a0a97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col-xl-5:nth-child(2) .btn",
+      "targets": [
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) .btn", "css:finder"],
+        ["xpath=//input[@value='Obriši']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f484fbf-2ceb-408d-967c-de990ca492ae",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.poruka",
+      "targets": [
+        ["css=.poruka", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Korisnik zika nema ulogu moderatora."
+    }, {
+      "id": "35761148-768b-4f44-a822-6078025b43ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "20bc7bea-e40b-437c-ac8f-cbcc15c3dc10",
+    "name": "Uspesno uklanjanje uloge moderatora",
+    "commands": [{
+      "id": "6955b515-47ae-4117-9f96-de3794f4be44",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "219219e2-a226-4a2e-9d3b-50fa5d194f66",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1373x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cf687c2-2471-492b-8445-78ad11c6af62",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijavi se",
+      "targets": [
+        ["linkText=Prijavi se", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijavi se')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07130986-a34a-468c-b320-c08f9d9a42d5",
+      "comment": "",
+      "command": "click",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56d0b34b-0c9b-4e36-a659-dc96b842cf6d",
+      "comment": "",
+      "command": "type",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=.korisnicko_ime_forma", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "aa403374-dbc5-489f-8459-c2db8feb84c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9cdbaa3-df9c-472c-8e04-51fe4c9a299f",
+      "comment": "",
+      "command": "type",
+      "target": "name=sifra",
+      "targets": [
+        ["name=sifra", "name"],
+        ["css=.sifra1_forma", "css:finder"],
+        ["xpath=//input[@name='sifra']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "33679c34-7df6-4f3a-b8d5-ffa8de493972",
+      "comment": "",
+      "command": "click",
+      "target": "id=prijavi_se",
+      "targets": [
+        ["id=prijavi_se", "id"],
+        ["css=#prijavi_se", "css:finder"],
+        ["xpath=//button[@id='prijavi_se']", "xpath:attributes"],
+        ["xpath=//form[@id='login_forma']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e460b07c-c5f2-425b-8a3f-dd744eac51c3",
+      "comment": "",
+      "command": "click",
+      "target": "name=obrisi_moderatora",
+      "targets": [
+        ["name=obrisi_moderatora", "name"],
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_moderatora']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "566411db-c7df-46b4-9c44-529f55ef92da",
+      "comment": "",
+      "command": "type",
+      "target": "name=obrisi_moderatora",
+      "targets": [
+        ["name=obrisi_moderatora", "name"],
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='obrisi_moderatora']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": "moderator"
+    }, {
+      "id": "e8c8e028-400f-4170-82e2-e26e4faf0030",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col-xl-5:nth-child(2) .btn",
+      "targets": [
+        ["css=.row:nth-child(4) > .col-xl-5:nth-child(2) .btn", "css:finder"],
+        ["xpath=//input[@value='Obriši']", "xpath:attributes"],
+        ["xpath=//div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b18f5d-d402-4306-baa1-1c240bd12c0f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.poruka",
+      "targets": [
+        ["css=.poruka", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Uspesno je uklonjena uloga korisniku moderator."
+    }, {
+      "id": "5efe71b2-8fee-4d59-93f1-60fab41bfb83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fcc8ccb4-acd3-4c02-8388-63e7052d4070",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:8000/administrativni_meni/", "http://127.0.0.1:8000/"],
+  "plugins": []
+}

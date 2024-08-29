@@ -1,0 +1,60 @@
+/* Nikola Babić 2020/0363 */
+
+/* Stilovi koji se koriste na stranici index.html */
+
+.index_dogadjaji{
+    margin: 2%;
+    background: rgba(214, 154, 50, 0.2);
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.index_dogadjaji_naslov{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #63564E;
+}
+
+.text_informacija{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: rgba(99, 86, 78, 0.52);
+}
+
+.dogadjaji_slika{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
+
+dogadjaji_slika_container{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    border-radius: 10%;
+}
+
+.dogadjaji_slika_container img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.naslov_informacije{
+
+}
